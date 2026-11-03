@@ -126,6 +126,18 @@ def main():
             ax.plot(rel.index, (rel[t] - 1) * 100, lw=1.1, alpha=0.75, label=t)
         ax.plot(ret_diaria.index, ret_diaria * 100, lw=3, color="black", label="GEDA")
         ax.axhline(0, color="#999", lw=0.8)
+        serie = ret_diaria.iloc[1:] * 100            # días del mes (sin el punto de partida)
+        marcas = {serie.index[-1]: "último"}
+        marcas.setdefault(serie.idxmax(), "máx.")
+        marcas.setdefault(serie.idxmin(), "mín.")
+        for d, etiqueta in marcas.items():
+            v = serie.loc[d]
+            arriba = v >= serie.median()
+            ax.scatter([d], [v], color="black", zorder=5, s=28)
+            ax.annotate(f"{v:+.2f}%" + ("" if etiqueta == "último" else f" ({etiqueta})"), (d, v),
+                        textcoords="offset points", xytext=(0, 10 if arriba else -16), ha="center",
+                        fontsize=10, fontweight="bold",
+                        bbox=dict(boxstyle="round,pad=0.2", fc="white", ec="none", alpha=0.85))
         ax.set_title(f"GEDA — {nombre_mes(mes_act)} (provisional, hasta {ultimo_cierre})")
         ax.set_ylabel("Rentabilidad del mes (%)")
         ax.grid(alpha=0.3)
@@ -140,120 +152,28 @@ def main():
         plt.close(fig)
         hay_grafica = True
 
-    # ---------- Datos comunes de los informes ----------
-    def filas_mes(m):
-        filas = []
-        for b in bloques:
-            sel = seleccion(b, m)
-            rets = sub_pos[b].get(m, {})
-            for t in sel:
-                filas.append((b, t, rk[b][m]["n"] / 7 / len(sel), rets.get(t, np.nan)))
-        return filas
-
-    prevision = []
-    for b in bloques:
-        nuevo, actual = seleccion(b, mes_sig), seleccion(b, mes_act)
-        prevision.append({"bloque": b, "posiciones": nuevo,
-                          "entra": [t for t in nuevo if t not in actual],
-                          "sale": [t for t in actual if t not in nuevo],
-                          "alerta": M._alerta_margen(rk[b][mes_sig])})
-    hay_cambios = any(x["entra"] or x["sale"] for x in prevision)
+    # ---------- Informe con el formato habitual (motor: generate_email_report) ----------
+    prevision = [{"entra": [t for t in seleccion(b, mes_sig) if t not in seleccion(b, mes_act)],
+                  "sale": [t for t in seleccion(b, mes_act) if t not in seleccion(b, mes_sig)]} for b in bloques]
     generado = pd.Timestamp.now(tz="Europe/Madrid")
-    cab = (f"Datos hasta el cierre del {ultimo_cierre}. Generado el {generado:%d-%m-%Y %H:%M} (hora de Madrid). "
-           f"Rentabilidades en EUR, sin comisiones ni impuestos.")
-    meses_v = [mes_sig, mes_act] + list(reversed(cerrados))
+    cab = (f"Datos hasta el cierre del {ultimo_cierre:%d-%m-%Y}. Generado el {generado:%d-%m-%Y %H:%M} "
+           f"(hora de Madrid). Rentabilidades en EUR, sin comisiones ni impuestos.")
+    cuerpo = M.generate_email_report(sub_pos, tot, "GEDA (en EUR)", 4)
+    cuerpo = cuerpo.replace("<html><body>", "").replace("</body></html>", "")
+    titulo_graf = f"<h3>Rentabilidad diaria de {nombre_mes(mes_act)} (provisional)</h3>"
 
-    def votos_texto(info):
-        partes = [f"{'✔ ' if t in info['seleccion'] else ''}{t} {int(v)}" for t, v in info["votos"].head(M.N_RANKING).items()]
-        mg, al = M._margen(info), M._alerta_margen(info)
-        return partes, ("" if mg is None else f"margen {info['n']}º-{info['n'] + 1}º: {mg}" + (f" ⚠️ {al}" if al else ""))
-
-    # ---------- HTML (correo) ----------
-    css = ("body{font-family:Arial,sans-serif;color:#222}table{border-collapse:collapse;margin:8px 0 18px}"
-           "td,th{border:1px solid #ccc;padding:5px 9px;vertical-align:top;font-size:14px}th{background:#f2f4f8}"
-           "h2{margin-top:28px;border-bottom:2px solid #1f4fd1}.nota{color:#666;font-size:13px}")
-    h = [f"<!DOCTYPE html><html lang='es'><head><meta charset='utf-8'><style>{css}</style></head><body>",
-         f"<h1>GEDA — seguimiento diario</h1><p class='nota'>{cab}</p>",
-         f"<h2>1. Previsión para {nombre_mes(mes_sig)}</h2>"
-         "<p class='nota'>Calculada como si el mes terminase hoy. Puede cambiar hasta el último cierre del mes.</p>"
-         "<table><tr><th>Bloque</th><th>Posiciones previstas</th><th>Cambios frente al mes en curso</th></tr>"]
-    for x in prevision:
-        c = " ".join([f"<b style='color:#0a7d32'>+{t}</b>" for t in x["entra"]] +
-                     [f"<b style='color:#c62828'>−{t}</b>" for t in x["sale"]]) or "sin cambios"
-        if x["alerta"]:
-            c += f" ⚠️ {x['alerta']}"
-        h.append(f"<tr><td><b>{x['bloque']}</b></td><td>{', '.join(x['posiciones'])}</td><td>{c}</td></tr>")
-    h.append("</table>")
-
-    def html_mes(m, titulo):
-        r = tot.loc[m]
-        h.append(f"<h2>{titulo}</h2><p>Rentabilidad GEDA: <b style='color:{color(r)};font-size:20px'>{pct(r)}</b></p>"
-                 "<table><tr><th>Bloque</th><th>Posición</th><th>Peso</th><th>Rentabilidad</th></tr>")
-        for b, t, peso, rr in filas_mes(m):
-            h.append(f"<tr><td>{b}</td><td>{t}</td><td>{peso:.1%}</td><td style='color:{color(rr)}'>{pct(rr)}</td></tr>")
-        h.append("</table>")
-
-    html_mes(mes_act, f"2. Mes en curso: {nombre_mes(mes_act)} (provisional)")
-    h.append("<img src='cid:grafica' style='max-width:100%' alt='Rentabilidad diaria del mes'>" if hay_grafica
-             else "<p class='nota'>Todavía no hay cierres de este mes.</p>")
-    h.append("<h2>3. Meses anteriores cerrados</h2>")
-    for m in reversed(cerrados):
-        html_mes(m, nombre_mes(m))
-    h.append("<h2>4. Votos (top 5)</h2><table><tr><th>Bloque</th>" +
-             "".join(f"<th>{nombre_mes(m)}{'<br>(' + rk[bloques[0]][m]['tipo'] + ')' if rk[bloques[0]][m]['tipo'] else ''}</th>"
-                     for m in meses_v) + "</tr>")
-    for b in bloques:
-        celdas = []
-        for m in meses_v:
-            partes, mg = votos_texto(rk[b][m])
-            celdas.append("<td>" + "<br>".join(partes) + (f"<br><span class='nota'>{mg}</span>" if mg else "") + "</td>")
-        h.append(f"<tr><td><b>{b}</b></td>{''.join(celdas)}</tr>")
-    h.append(f"</table><p class='nota'>Máximo {rk[bloques[0]][mes_sig]['max']} votos por valor. ✔ = elegido. "
-             "AJUSTADO = margen pequeño entre el último elegido y el primero que queda fuera.</p></body></html>")
+    html = (f"<!DOCTYPE html><html lang='es'><head><meta charset='utf-8'></head>"
+            f"<body style='font-family:Arial,sans-serif;'><p style='color:#666;font-size:13px'>{cab}</p>{cuerpo}"
+            + (f"{titulo_graf}<img src='cid:grafica' style='max-width:100%' alt='Rentabilidad diaria'>" if hay_grafica
+               else "<p><i>Todavía no hay cierres de este mes.</i></p>") + "</body></html>")
     with open(os.path.join(SALIDA, "informe.html"), "w", encoding="utf-8") as f:
-        f.write("\n".join(h))
+        f.write(html)
 
-    # ---------- Markdown (se ve directamente en GitHub) ----------
-    md = [f"# GEDA — seguimiento diario", "", f"_{cab}_", "",
-          f"## 1. Previsión para {nombre_mes(mes_sig)}", "",
-          "_Calculada como si el mes terminase hoy. Puede cambiar hasta el último cierre del mes._", "",
-          "| Bloque | Posiciones previstas | Cambios frente al mes en curso |", "|---|---|---|"]
-    for x in prevision:
-        c = " ".join([f"**+{t}**" for t in x["entra"]] + [f"**−{t}**" for t in x["sale"]]) or "sin cambios"
-        if x["alerta"]:
-            c += f" ⚠️ {x['alerta']}"
-        md.append(f"| {x['bloque']} | {', '.join(x['posiciones'])} | {c} |")
-
-    def md_mes(m, titulo):
-        md.extend(["", f"## {titulo}", "", f"**Rentabilidad GEDA: {pct(tot.loc[m])}**", "",
-                   "| Bloque | Posición | Peso | Rentabilidad |", "|---|---|---|---|"])
-        for b, t, peso, rr in filas_mes(m):
-            md.append(f"| {b} | {t} | {peso:.1%} | {pct(rr)} |")
-
-    md_mes(mes_act, f"2. Mes en curso: {nombre_mes(mes_act)} (provisional)")
-    md.extend(["", "![Rentabilidad diaria del mes](geda_mes_actual.png)" if hay_grafica
-               else "_Todavía no hay cierres de este mes._"])
-    if ret_diaria is not None:
-        md.extend(["", "<details><summary>Rentabilidad acumulada día a día</summary>", "",
-                   "| Día | GEDA |", "|---|---|"] +
-                  [f"| {d:%d-%m} | {pct(v)} |" for d, v in ret_diaria.iloc[1:].items()] + ["", "</details>"])
-    md.extend(["", "## 3. Meses anteriores cerrados"])
-    for m in reversed(cerrados):
-        md_mes(m, nombre_mes(m))
-    md.extend(["", "## 4. Votos (top 5)", "",
-               "| Bloque | " + " | ".join(f"{nombre_mes(m)}{' (' + rk[bloques[0]][m]['tipo'] + ')' if rk[bloques[0]][m]['tipo'] else ''}"
-                                       for m in meses_v) + " |",
-               "|---|" + "---|" * len(meses_v)])
-    for b in bloques:
-        celdas = []
-        for m in meses_v:
-            partes, mg = votos_texto(rk[b][m])
-            celdas.append("<br>".join(partes) + (f"<br>_{mg}_" if mg else ""))
-        md.append(f"| **{b}** | " + " | ".join(celdas) + " |")
-    md.extend(["", f"_Máximo {rk[bloques[0]][mes_sig]['max']} votos por valor. ✔ = elegido. "
-                   "AJUSTADO = margen pequeño entre el último elegido y el primero que queda fuera._"])
+    md = (f"_{cab}_\n\n{cuerpo}\n\n"
+          + (f"{titulo_graf}\n\n![Rentabilidad diaria](geda_mes_actual.png)\n" if hay_grafica
+             else "<p><i>Todavía no hay cierres de este mes.</i></p>\n"))
     with open(os.path.join(SALIDA, "README.md"), "w", encoding="utf-8") as f:
-        f.write("\n".join(md) + "\n")
+        f.write(md)
 
     # ---------- Resumen para el asunto del correo ----------
     cambios_txt = " ".join([f"+{t}" for x in prevision for t in x["entra"]] +
