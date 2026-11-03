@@ -12,6 +12,7 @@ señal "ambas", ventanas 2-24, regla dinámica de 3 meses, 7 posiciones iguales.
 Membresías y divisas: carpeta datos/ (mantenlas al día; ver README).
 """
 import os
+import re
 import sys
 import time
 import warnings
@@ -160,6 +161,9 @@ def main():
            f"(hora de Madrid). Rentabilidades en EUR, sin comisiones ni impuestos.")
     cuerpo = M.generate_email_report(sub_pos, tot, "GEDA (en EUR)", 4)
     cuerpo = cuerpo.replace("<html><body>", "").replace("</body></html>", "")
+    # Los programas de correo convierten tickers como REP.MC o ASML.AS en enlaces (parecen dominios).
+    # Separar el punto en su propia etiqueta lo evita sin cambiar lo que se ve ni lo que se copia.
+    cuerpo = re.sub(r"\b([A-Z0-9][A-Z0-9-]*)\.([A-Z]{1,3})\b", r"\1<span>.</span>\2", cuerpo)
     titulo_graf = f"<h3>Rentabilidad diaria de {nombre_mes(mes_act)} (provisional)</h3>"
 
     html = (f"<!DOCTYPE html><html lang='es'><head><meta charset='utf-8'></head>"
