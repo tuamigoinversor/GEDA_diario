@@ -144,8 +144,11 @@ def main():
         ax.grid(alpha=0.3)
         ax.legend(fontsize=8, ncol=4, loc="upper left")
         import matplotlib.dates as mdates
+        # Eje X fijo: del último cierre del mes anterior al último día del mes (se va rellenando)
+        fin_mes = inicio_mes + pd.offsets.MonthEnd(0)
+        ax.set_xlim(rel.index[0] - pd.Timedelta(hours=12), fin_mes + pd.Timedelta(hours=12))
+        ax.xaxis.set_major_locator(mdates.DayLocator(bymonthday=range(1, 32, 2)))
         ax.xaxis.set_major_formatter(mdates.DateFormatter("%d-%m"))
-        ax.xaxis.set_major_locator(mdates.DayLocator(interval=max(1, len(rel) // 12)))
         fig.autofmt_xdate()
         fig.tight_layout()
         ruta_png = os.path.join(SALIDA, "geda_mes_actual.png")
