@@ -1,0 +1,54 @@
+yaml
+name: GEDA diario
+
+on:
+  schedule:
+    # GitHub usa hora UTC: 05:47 UTC = 6:47 en invierno y 7:47 en verano (hora de Madrid).
+    - cron: "47 5 * * 2-6"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: geda-diario
+  cancel-in-progress: false
+
+jobs:
+  geda:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Calcular GEDA
+        run: python geda_diario.py
+
+      - name: Guardar el informe en el repositorio (carpeta informe/)
+        run: |
+          mkdir -p informe
+          cp salida/README.md informe/README.md
+          if [ -f salida/geda_mes_actual.png ]; then cp salida/geda_mes_actual.png informe/; else rm -f informe/geda_mes_actual.png; fi
+          git config user.name "geda-bot"
+          git config user.email "geda-bot@users.noreply.github.com"
+          git add informe/ datos/
+          if ! git diff --cached --quiet; then
+            git commit -m "Informe GEDA $(date -u +%F)"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Enviar por correo
+        env:
+          SMTP_USUARIO: ${{ secrets.EMAIL_USER }}
+          SMTP_CLAVE: ${{ secrets.EMAIL_PASS }}
+          EMAIL_DESTINO: ${{ secrets.EMAIL_TO }}
+        run: python enviar_email.py
