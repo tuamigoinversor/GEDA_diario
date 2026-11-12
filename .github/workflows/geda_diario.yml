@@ -3,7 +3,7 @@ name: GEDA diario
 on:
   schedule:
     # GitHub usa hora UTC: 07:47 UTC = 8:47 en invierno y 9:47 en verano (hora de Madrid).
-    - cron: "47 7 * * 2-6"
+    - cron: '47 7 * * 2-6'
   workflow_dispatch: {}
 
 permissions:
