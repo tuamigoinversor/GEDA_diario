@@ -1,0 +1,58 @@
+name: HORIZONTE diario
+
+on:
+  workflow_run:               # se lanza sola cuando termina "ROCA IMPULSO CRYPTO diario" (haya ido bien o mal)
+    workflows: ["ROCA IMPULSO CRYPTO diario"]
+    types: [completed]
+  workflow_dispatch: {}       # botón "Run workflow" para lanzarlo a mano
+
+permissions:
+  contents: write
+
+concurrency:
+  group: geda-diario          # el mismo grupo que GEDA y GEN-Z: nunca corren a la vez
+  cancel-in-progress: false
+
+jobs:
+  horizonte:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}   # la versión más reciente (con lo que guardaron las anteriores)
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Calcular HORIZONTE y enviar el correo (reintenta una vez a los 30 min si Yahoo bloquea)
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: |
+          set +e
+          python horizonte_diario.py; code=$?
+          if [ $code -eq 2 ]; then
+            echo "Yahoo ha fallado. Reintento dentro de 30 minutos..."
+            sleep 1800
+            python horizonte_diario.py; code=$?
+          fi
+          exit $code
+
+      - name: Guardar el informe en el repositorio (carpeta informe_horizonte/)
+        if: always()
+        run: |
+          git config user.name "horizonte-bot"
+          git config user.email "horizonte-bot@users.noreply.github.com"
+          for d in informe_horizonte salida datos; do [ -e "$d" ] && git add "$d"; done
+          if ! git diff --cached --quiet; then
+            git commit -m "Informe HORIZONTE $(date -u +%F)"
+            git pull --rebase
+            git push
+          fi
