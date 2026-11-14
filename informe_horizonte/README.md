@@ -1,5 +1,5 @@
 # HORIZONTE · seguimiento diario
-Ejecutado el 14-11-2026 19:10 (Madrid) · último valor liquidativo: 13-11-2026 · rentabilidades en EUR
+Ejecutado el 14-11-2026 19:23 (Madrid) · último valor liquidativo: 13-11-2026 · rentabilidades en EUR
 
 **nov-26 (provisional):** HORIZONTE simple +0,20 % · HORIZONTE avanzada +0,20 % · MSCI World (URTH, EUR) +1,16 %
 

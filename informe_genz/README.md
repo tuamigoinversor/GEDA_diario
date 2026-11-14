@@ -1,5 +1,5 @@
 # GEN-Z · seguimiento diario
-Ejecutado el 14-11-2026 18:54 (Madrid) · último cierre con datos: 13-11-2026 · rentabilidades en EUR
+Ejecutado el 14-11-2026 19:23 (Madrid) · último cierre con datos: 13-11-2026 · rentabilidades en EUR
 
 **nov-26 (provisional): -4,29 %** · MSCI World (URTH, EUR): +1,16 % · Semiconductores (SMH, EUR): -5,72 %
 
