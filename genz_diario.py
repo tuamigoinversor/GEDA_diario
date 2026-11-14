@@ -75,6 +75,7 @@ REFERENCIAS = [("MSCI World (URTH, EUR)", "URTH"), ("Semiconductores (SMH, EUR)"
 
 CARPETA_DATOS = "datos"
 CARPETA_SALIDA = "salida"
+CARPETA_INFORME = "informe_genz"   # README.md + gráfico: se ve directamente en GitHub (como informe/ de GEDA)
 FICHERO_MEMB_USA = "membresias_usa_desde2015.csv"
 FICHERO_MEMB_EUROPA = "membresias_europa_desde2015.csv"
 FICHERO_POSICIONES = "genz_posiciones.csv"         # mes,ticker,rentab_publicada
@@ -386,10 +387,77 @@ def html_posiciones_mes(pesos, rel, tema, info, metodo, fuente):
             + f"<p style='font-size:12px;color:#555'>Posiciones: {fuente}</p>")
 
 
+def md_pct(x, signo=True):
+    return pct(x, signo=signo)
+
+
+def markdown_informe(hoy, ultimo_dato, mes_actual, mes_siguiente, cerrados, meses, estados, versiones, genz,
+                     refs_tabla, acum_g, acum_r, pesos, rel, tema, info, pesos_metodo, fuente, cuadre,
+                     prevision_txt, cambios_txt, avisos, alertas, rankings, pub, comprob, frase_mes, png_nombre):
+    L = [f"# GEN-Z · seguimiento diario",
+         f"Ejecutado el {pd.Timestamp.now(tz='Europe/Madrid'):%d-%m-%Y %H:%M} (Madrid) · último cierre con datos: "
+         f"{ultimo_dato:%d-%m-%Y} · rentabilidades en EUR", "",
+         f"**{etiqueta(mes_actual)} (provisional): {md_pct(genz[mes_actual])}** · "
+         + " · ".join(f"{n}: {md_pct(refs_tabla[n].get(mes_actual, np.nan))}" for n, _ in REFERENCIAS), "",
+         f"**Previsión para {etiqueta(mes_siguiente)}:** {prevision_txt} → {cambios_txt}", ""]
+    if avisos or alertas:
+        L += ["> ⚠️ **Avisos**"] + [f"> - {a}" for a in alertas + avisos] + [""]
+    L += [f"## 1. {MESES_LARGO[mes_actual.month - 1].capitalize()} de {mes_actual.year}, día a día", "",
+          f"![Gráfico diario]({png_nombre})", "", frase_mes, "",
+          "| Tema | Ticker | Nombre | Peso | Rentab. del mes |", "|---|---|---|---:|---:|"]
+    for t, w in sorted(pesos.items()):
+        marca = "" if t in pesos_metodo else " (no es del método)"
+        L.append(f"| {tema.get(t, '—')} | **{t}**{marca} | {(info.get(t) or {}).get('nombre') or ''} | "
+                 f"{pct(w, 1)} | {md_pct(rel[t].iloc[-1])} |")
+    L += ["", f"Posiciones: {fuente}. {cuadre}", "",
+          "## 2. Resumen", "",
+          "| Mes | Estado | Versión | GEN-Z | " + " | ".join(n for n, _ in REFERENCIAS) + " |",
+          "|---|---|---|---:|" + "---:|" * len(REFERENCIAS)]
+    for m in meses:
+        L.append(f"| **{etiqueta(m)}** | {estados[m]} | {versiones[m]} | **{md_pct(genz.get(m, np.nan), False)}** | "
+                 + " | ".join(md_pct(refs_tabla[n].get(m, np.nan), False) for n, _ in REFERENCIAS) + " |")
+    L.append(f"| **Acumulado {MESES_CERRADOS} meses cerrados** | | | **{md_pct(acum_g, False)}** | "
+             + " | ".join(md_pct(acum_r[n], False) for n, _ in REFERENCIAS) + " |")
+    L += ["", "## 3. Votos de la versión definitiva (top 5 y elegidas; ✔ = elegida; máximo 2 por tema)", ""]
+    for blq, por_mes in rankings.items():
+        for m in (mes_actual, mes_siguiente):
+            inf = por_mes.get(m)
+            if not inf:
+                continue
+            tipo = "mes en curso" if m == mes_actual else "previsión"
+            L += [f"**{etiqueta(m)} ({tipo})** · máximo {inf['max']} votos · margen 4º-5º: {M._margen(inf)}"
+                  + (f" ⚠️ {M._alerta_margen(inf)}" if M._alerta_margen(inf) else ""), "",
+                  "| | Ticker | Tema | Votos |", "|---|---|---|---:|"]
+            votos = inf["votos"]
+            filas = [t for i, t in enumerate(votos.index) if i < M.N_RANKING or t in inf["seleccion"]]
+            for t in filas:   # top 5 y, si el límite de tema salta a alguien, también la elegida de más abajo
+                pos_r = list(votos.index).index(t) + 1
+                L.append(f"| {'✔' if t in inf['seleccion'] else ''} | {pos_r}º {t} | {tema.get(t, '—')} | {int(votos[t])} |")
+            L.append("")
+    L += ["## 4. Meses cerrados publicados (v2)", "",
+          "| Mes | Posiciones publicadas | GEN-Z publicado | Comprobación Yahoo |", "|---|---|---:|---:|"]
+    for m in cerrados:
+        p = pub[m]
+        L.append(f"| **{etiqueta(m)}** | " + " · ".join(f"{t} {md_pct(r, False)}" for t, r in p.items())
+                 + f" | **{md_pct(genz[m], False)}** | {md_pct(comprob.get(m, np.nan), False)} |")
+    L += ["", "_La previsión se calcula como si el mes terminase hoy y puede cambiar hasta el cierre. "
+          "Uso interno: no es una recomendación de inversión._"]
+    return "\n".join(L)
+
+
+SECRETOS = {"SMTP_USER": ("SMTP_USER", "SMTP_USUARIO", "EMAIL_USER"),
+            "SMTP_PASSWORD": ("SMTP_PASSWORD", "SMTP_CLAVE", "EMAIL_PASS"),
+            "MAIL_TO": ("MAIL_TO", "EMAIL_DESTINO", "EMAIL_TO")}
+
+
+def _secreto(clave):
+    return next((os.environ[k] for k in SECRETOS[clave] if os.environ.get(k)), "")
+
+
 def enviar_correo(asunto, html_cid, png):
     host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
     puerto = int(os.environ.get("SMTP_PORT", "465"))
-    usuario, clave, para = os.environ["SMTP_USER"], os.environ["SMTP_PASSWORD"], os.environ["MAIL_TO"]
+    usuario, clave, para = _secreto("SMTP_USER"), _secreto("SMTP_PASSWORD"), _secreto("MAIL_TO")
     msg = MIMEMultipart("related")
     msg["Subject"], msg["From"], msg["To"] = asunto, usuario, para
     msg.attach(MIMEText(html_cid, "html", "utf-8"))
@@ -569,6 +637,16 @@ Uso interno: no es una recomendación de inversión.</p>
         with open(ruta, "w", encoding="utf-8") as f:
             f.write(html_repo)
 
+    os.makedirs(CARPETA_INFORME, exist_ok=True)
+    with open(os.path.join(CARPETA_INFORME, "genz_mes_actual.png"), "wb") as f:
+        f.write(png)
+    with open(os.path.join(CARPETA_INFORME, "README.md"), "w", encoding="utf-8") as f:
+        f.write(markdown_informe(hoy, ultimo_dato, mes_actual, mes_siguiente, cerrados, meses, estados, versiones,
+                                 genz, refs_tabla, acum(genz), {n: acum(refs_mes[n]) for n, _ in REFERENCIAS},
+                                 pesos, rel, tema, info, pesos_metodo, fuente, cuadre, prevision_txt, cambios_txt,
+                                 avisos, alertas, total.attrs.get("rankings", {}), pub, comprob,
+                                 frase(cartera, mes_actual), "genz_mes_actual.png"))
+
     ruta_csv = os.path.join(CARPETA_SALIDA, "genz_seguimiento_diario.csv")
     fila = pd.DataFrame([{
         "fecha": str(hoy.date()), "ultimo_cierre": str(ultimo_dato.date()), "mes": mes_actual.strftime("%Y-%m"),
@@ -593,7 +671,7 @@ Uso interno: no es una recomendación de inversión.</p>
     for a in alertas + avisos:
         print(f"⚠️ {a}")
 
-    if all(os.environ.get(k) for k in ("SMTP_USER", "SMTP_PASSWORD", "MAIL_TO")):
+    if all(_secreto(k) for k in SECRETOS):
         asunto = (f"GEN-Z {hoy:%d-%m} · {etiqueta(mes_actual)} {pct(g_mes, signo=True)} · "
                   f"{etiqueta(mes_siguiente)}: {cambios_txt}" + (" · ⚠️" if avisos or alertas else ""))
         try:
@@ -602,6 +680,8 @@ Uso interno: no es una recomendación de inversión.</p>
         except Exception as e:  # noqa: BLE001
             print(f"⛔ No se ha podido enviar el correo: {e}")
             return 3
+    else:
+        print("ℹ️ Sin secretos de correo (SMTP_USER/EMAIL_USER, SMTP_PASSWORD/EMAIL_PASS, MAIL_TO/EMAIL_TO): no se envía.")
     return 0
 
 
