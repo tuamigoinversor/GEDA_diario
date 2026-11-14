@@ -1,0 +1,4242 @@
+{
+ "1COV.DE": {
+  "industria": "",
+  "nombre": "Covestro AG                   I"
+ },
+ "A": {
+  "industria": "Diagnostics & Research",
+  "nombre": "Agilent Technologies, Inc."
+ },
+ "A2A.MI": {
+  "industria": "Utilities - Diversified",
+  "nombre": "A2A"
+ },
+ "AABA": {
+  "industria": null,
+  "nombre": null
+ },
+ "AAL": {
+  "industria": "Airlines",
+  "nombre": "American Airlines Group, Inc."
+ },
+ "AALB.AS": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "AALBERTS N.V."
+ },
+ "AAP": {
+  "industria": "Auto Parts",
+  "nombre": "Advance Auto Parts Inc."
+ },
+ "AAPL": {
+  "industria": "Consumer Electronics",
+  "nombre": "Apple Inc."
+ },
+ "ABBV": {
+  "industria": "Drug Manufacturers - General",
+  "nombre": "AbbVie Inc."
+ },
+ "ABE.MC": {
+  "industria": null,
+  "nombre": null
+ },
+ "ABG-P.MC": {
+  "industria": null,
+  "nombre": null
+ },
+ "ABI.BR": {
+  "industria": "Beverages - Brewers",
+  "nombre": "AB INBEV"
+ },
+ "ABMD": {
+  "industria": null,
+  "nombre": null
+ },
+ "ABN.AS": {
+  "industria": "Banks - Diversified",
+  "nombre": "ABN AMRO BANK N.V."
+ },
+ "ABNB": {
+  "industria": "Travel Services",
+  "nombre": "Airbnb, Inc."
+ },
+ "ABT": {
+  "industria": "Medical Devices",
+  "nombre": "Abbott Laboratories"
+ },
+ "AC.PA": {
+  "industria": "Lodging",
+  "nombre": "ACCOR"
+ },
+ "ACA.PA": {
+  "industria": "Banks - Diversified",
+  "nombre": "CREDIT AGRICOLE"
+ },
+ "ACGL": {
+  "industria": "Insurance - Diversified",
+  "nombre": "Arch Capital Group Ltd."
+ },
+ "ACN": {
+  "industria": "Information Technology Services",
+  "nombre": "Accenture plc"
+ },
+ "ACS.MC": {
+  "industria": "Engineering & Construction",
+  "nombre": "ACS,ACTIVIDADES DE CONSTRUCCION"
+ },
+ "ACX.MC": {
+  "industria": "Steel",
+  "nombre": "ACERINOX, S.A."
+ },
+ "AD.AS": {
+  "industria": "Grocery Stores",
+  "nombre": "KONINKLIJKE AHOLD DELHAIZE N.V."
+ },
+ "ADBE": {
+  "industria": "Software - Application",
+  "nombre": "Adobe Inc."
+ },
+ "ADI": {
+  "industria": "Semiconductors",
+  "nombre": "Analog Devices, Inc."
+ },
+ "ADM": {
+  "industria": "Farm Products",
+  "nombre": "Archer-Daniels-Midland Company"
+ },
+ "ADP": {
+  "industria": "Software - Application",
+  "nombre": "Automatic Data Processing, Inc."
+ },
+ "ADS": {
+  "industria": null,
+  "nombre": null
+ },
+ "ADS.DE": {
+  "industria": "Footwear & Accessories",
+  "nombre": "adidas AG                     N"
+ },
+ "ADSK": {
+  "industria": "Software - Application",
+  "nombre": "Autodesk, Inc."
+ },
+ "ADT": {
+  "industria": "Security & Protection Services",
+  "nombre": "ADT Inc."
+ },
+ "ADYEN.AS": {
+  "industria": "Software - Infrastructure",
+  "nombre": "ADYEN"
+ },
+ "AEE": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "Ameren Corporation"
+ },
+ "AENA.MC": {
+  "industria": "Airports & Air Services",
+  "nombre": "AENA, S.M.E., S.A."
+ },
+ "AEP": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "American Electric Power Company"
+ },
+ "AES": {
+  "industria": "Utilities - Diversified",
+  "nombre": "The AES Corporation"
+ },
+ "AET": {
+  "industria": null,
+  "nombre": null
+ },
+ "AFL": {
+  "industria": "Insurance - Life",
+  "nombre": "AFLAC Incorporated"
+ },
+ "AGN": {
+  "industria": null,
+  "nombre": null
+ },
+ "AGN.AS": {
+  "industria": "Insurance - Diversified",
+  "nombre": "AEGON"
+ },
+ "AI.PA": {
+  "industria": "Specialty Chemicals",
+  "nombre": "AIR LIQUIDE"
+ },
+ "AIG": {
+  "industria": "Insurance - Diversified",
+  "nombre": "American International Group, I"
+ },
+ "AIR.PA": {
+  "industria": "Aerospace & Defense",
+  "nombre": "AIRBUS SE"
+ },
+ "AIV": {
+  "industria": "REIT - Residential",
+  "nombre": "Apartment Investment and Manage"
+ },
+ "AIZ": {
+  "industria": "Insurance - Property & Casualty",
+  "nombre": "Assurant, Inc."
+ },
+ "AJG": {
+  "industria": "Insurance Brokers",
+  "nombre": "Arthur J. Gallagher & Co."
+ },
+ "AKAM": {
+  "industria": "Software - Infrastructure",
+  "nombre": "Akamai Technologies, Inc."
+ },
+ "AKZA.AS": {
+  "industria": "Specialty Chemicals",
+  "nombre": "AKZO NOBEL"
+ },
+ "ALAB": {
+  "industria": "Semiconductors",
+  "nombre": "Astera Labs, Inc."
+ },
+ "ALB": {
+  "industria": "Specialty Chemicals",
+  "nombre": "Albemarle Corporation"
+ },
+ "ALGN": {
+  "industria": "Medical Instruments & Supplies",
+  "nombre": "Align Technology, Inc."
+ },
+ "ALK": {
+  "industria": "Airlines",
+  "nombre": "Alaska Air Group, Inc."
+ },
+ "ALL": {
+  "industria": "Insurance - Property & Casualty",
+  "nombre": "Allstate Corporation (The)"
+ },
+ "ALLE": {
+  "industria": "Security & Protection Services",
+  "nombre": "Allegion plc"
+ },
+ "ALM.MC": {
+  "industria": "Drug Manufacturers - Specialty & Generic",
+  "nombre": "ALMIRALL S.A."
+ },
+ "ALNY": {
+  "industria": "Biotechnology",
+  "nombre": "Alnylam Pharmaceuticals, Inc."
+ },
+ "ALO.PA": {
+  "industria": "Railroads",
+  "nombre": "ALSTOM"
+ },
+ "ALTR": {
+  "industria": null,
+  "nombre": null
+ },
+ "ALU.PA": {
+  "industria": null,
+  "nombre": null
+ },
+ "ALV.DE": {
+  "industria": "Insurance - Diversified",
+  "nombre": "Allianz SE                    v"
+ },
+ "ALXN": {
+  "industria": null,
+  "nombre": null
+ },
+ "AMAT": {
+  "industria": "Semiconductor Equipment & Materials",
+  "nombre": "Applied Materials, Inc."
+ },
+ "AMCR": {
+  "industria": "Packaging & Containers",
+  "nombre": "Amcor plc"
+ },
+ "AMD": {
+  "industria": "Semiconductors",
+  "nombre": "Advanced Micro Devices, Inc."
+ },
+ "AME": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "AMETEK, Inc."
+ },
+ "AMG": {
+  "industria": "Asset Management",
+  "nombre": "Affiliated Managers Group, Inc."
+ },
+ "AMGN": {
+  "industria": "Drug Manufacturers - General",
+  "nombre": "Amgen Inc."
+ },
+ "AMP": {
+  "industria": "Asset Management",
+  "nombre": "Ameriprise Financial, Inc."
+ },
+ "AMP.MI": {
+  "industria": "Medical Distribution",
+  "nombre": "AMPLIFON"
+ },
+ "AMS.MC": {
+  "industria": "Information Technology Services",
+  "nombre": "AMADEUS IT GROUP, S.A."
+ },
+ "AMT": {
+  "industria": "REIT - Specialty",
+  "nombre": "American Tower Corporation (REI"
+ },
+ "AMTM": {
+  "industria": "Engineering & Construction",
+  "nombre": "Amentum Holdings, Inc."
+ },
+ "AMZN": {
+  "industria": "Internet Retail",
+  "nombre": "Amazon.com, Inc."
+ },
+ "AN": {
+  "industria": "Auto & Truck Dealerships",
+  "nombre": "AutoNation, Inc."
+ },
+ "ANA.MC": {
+  "industria": "Engineering & Construction",
+  "nombre": "ACCIONA, S.A."
+ },
+ "ANDV": {
+  "industria": null,
+  "nombre": null
+ },
+ "ANE.MC": {
+  "industria": "Utilities - Renewable",
+  "nombre": "CORPORACI...N ACCIONA ENERG...A"
+ },
+ "ANET": {
+  "industria": "Computer Hardware",
+  "nombre": "Arista Networks, Inc."
+ },
+ "ANIM.MI": {
+  "industria": "Asset Management",
+  "nombre": "ANIMA HOLDING"
+ },
+ "ANSS": {
+  "industria": null,
+  "nombre": null
+ },
+ "AON": {
+  "industria": "Insurance Brokers",
+  "nombre": "Aon plc"
+ },
+ "AOS": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "A.O. Smith Corporation"
+ },
+ "APA": {
+  "industria": "Oil & Gas E&P",
+  "nombre": "APA Corporation"
+ },
+ "APC": {
+  "industria": "Oil & Gas Refining & Marketing",
+  "nombre": "ARKO Petroleum Corp."
+ },
+ "APD": {
+  "industria": "Specialty Chemicals",
+  "nombre": "Air Products and Chemicals, Inc"
+ },
+ "APH": {
+  "industria": "Electronic Components",
+  "nombre": "Amphenol Corporation"
+ },
+ "APO": {
+  "industria": "Asset Management",
+  "nombre": "Apollo Global Management, Inc. "
+ },
+ "APP": {
+  "industria": "Advertising Agencies",
+  "nombre": "Applovin Corporation"
+ },
+ "APTV": {
+  "industria": "Auto Parts",
+  "nombre": "Aptiv PLC"
+ },
+ "ARE": {
+  "industria": "REIT - Office",
+  "nombre": "Alexandria Real Estate Equities"
+ },
+ "ARES": {
+  "industria": "Asset Management",
+  "nombre": "Ares Management Corporation"
+ },
+ "ARG": {
+  "industria": null,
+  "nombre": null
+ },
+ "ARGX.BR": {
+  "industria": "Biotechnology",
+  "nombre": "ARGENX SE"
+ },
+ "ARM": {
+  "industria": "Semiconductors",
+  "nombre": "Arm Holdings plc"
+ },
+ "ARNC": {
+  "industria": null,
+  "nombre": null
+ },
+ "ASM.AS": {
+  "industria": "Semiconductor Equipment & Materials",
+  "nombre": "ASM International N.V."
+ },
+ "ASML": {
+  "industria": "Semiconductor Equipment & Materials",
+  "nombre": "ASML Holding N.V. - New York Re"
+ },
+ "ASML.AS": {
+  "industria": "Semiconductor Equipment & Materials",
+  "nombre": "ASML HOLDING"
+ },
+ "ASRNL.AS": {
+  "industria": "Insurance - Diversified",
+  "nombre": "ASR NEDERLAND"
+ },
+ "ATC.AS": {
+  "industria": null,
+  "nombre": null
+ },
+ "ATI": {
+  "industria": "Metal Fabrication",
+  "nombre": "ATI Inc."
+ },
+ "ATL.MI": {
+  "industria": null,
+  "nombre": null
+ },
+ "ATO": {
+  "industria": "Utilities - Regulated Gas",
+  "nombre": "Atmos Energy Corporation"
+ },
+ "ATO.PA": {
+  "industria": "Information Technology Services",
+  "nombre": "ATOS GROUP"
+ },
+ "ATVI": {
+  "industria": null,
+  "nombre": null
+ },
+ "AVB": {
+  "industria": "REIT - Residential",
+  "nombre": "AvalonBay Communities, Inc."
+ },
+ "AVGO": {
+  "industria": "Semiconductors",
+  "nombre": "Broadcom Inc."
+ },
+ "AVIO.MI": {
+  "industria": "Aerospace & Defense",
+  "nombre": "AVIO"
+ },
+ "AVP": {
+  "industria": null,
+  "nombre": null
+ },
+ "AVY": {
+  "industria": "Packaging & Containers",
+  "nombre": "Avery Dennison Corporation"
+ },
+ "AWK": {
+  "industria": "Utilities - Regulated Water",
+  "nombre": "American Water Works Company, I"
+ },
+ "AXON": {
+  "industria": "Aerospace & Defense",
+  "nombre": "Axon Enterprise, Inc."
+ },
+ "AXP": {
+  "industria": "Credit Services",
+  "nombre": "American Express Company"
+ },
+ "AYI": {
+  "industria": "Electrical Equipment & Parts",
+  "nombre": "Acuity Inc."
+ },
+ "AZM.MI": {
+  "industria": "Asset Management",
+  "nombre": "AZIMUT"
+ },
+ "AZN": {
+  "industria": "Drug Manufacturers - General",
+  "nombre": "AstraZeneca PLC"
+ },
+ "AZO": {
+  "industria": "Auto Parts",
+  "nombre": "AutoZone, Inc."
+ },
+ "BA": {
+  "industria": "Aerospace & Defense",
+  "nombre": "Boeing Company (The)"
+ },
+ "BAC": {
+  "industria": "Banks - Diversified",
+  "nombre": "Bank of America Corporation"
+ },
+ "BALL": {
+  "industria": "Packaging & Containers",
+  "nombre": "Ball Corporation"
+ },
+ "BAMI.MI": {
+  "industria": "Banks - Regional",
+  "nombre": "BANCO BPM"
+ },
+ "BAS.DE": {
+  "industria": "Chemicals",
+  "nombre": "BASF SE                       N"
+ },
+ "BATRA": {
+  "industria": "Entertainment",
+  "nombre": "Atlanta Braves Holdings, Inc. -"
+ },
+ "BATRK": {
+  "industria": "Entertainment",
+  "nombre": "Atlanta Braves Holdings, Inc. -"
+ },
+ "BAX": {
+  "industria": "Medical Instruments & Supplies",
+  "nombre": "Baxter International Inc."
+ },
+ "BAYN.DE": {
+  "industria": "Drug Manufacturers - General",
+  "nombre": "Bayer AG                      N"
+ },
+ "BBBY": {
+  "industria": null,
+  "nombre": "Bed Bath & Beyond, Inc."
+ },
+ "BBVA.MC": {
+  "industria": "Banks - Diversified",
+  "nombre": "BANCO BILBAO VIZCAYA ARGENTARIA"
+ },
+ "BBWI": {
+  "industria": "Specialty Retail",
+  "nombre": "Bath & Body Works, Inc."
+ },
+ "BBY": {
+  "industria": "Specialty Retail",
+  "nombre": "Best Buy Co., Inc."
+ },
+ "BC.MI": {
+  "industria": "Luxury Goods",
+  "nombre": "BRUNELLO CUCINELLI"
+ },
+ "BCR": {
+  "industria": null,
+  "nombre": null
+ },
+ "BDX": {
+  "industria": "Medical Instruments & Supplies",
+  "nombre": "Becton, Dickinson and Company"
+ },
+ "BE": {
+  "industria": "Electrical Equipment & Parts",
+  "nombre": "Bloom Energy Corporation"
+ },
+ "BEI.DE": {
+  "industria": "Household & Personal Products",
+  "nombre": "BEIERSDORF AG                 I"
+ },
+ "BEN": {
+  "industria": "Asset Management",
+  "nombre": "Franklin Templeton, Inc."
+ },
+ "BESI.AS": {
+  "industria": "Semiconductor Equipment & Materials",
+  "nombre": "BE Semiconductor Industries N.V"
+ },
+ "BF-B": {
+  "industria": "Beverages - Wineries & Distilleries",
+  "nombre": "Brown Forman Inc"
+ },
+ "BG": {
+  "industria": "Farm Products",
+  "nombre": "Bunge Limited"
+ },
+ "BGN.MI": {
+  "industria": "Banks - Regional",
+  "nombre": "BANCA GENERALI"
+ },
+ "BHF": {
+  "industria": "Insurance - Life",
+  "nombre": "Brighthouse Financial, Inc."
+ },
+ "BIDU": {
+  "industria": "Internet Content & Information",
+  "nombre": "Baidu, Inc."
+ },
+ "BIIB": {
+  "industria": "Drug Manufacturers - General",
+  "nombre": "Biogen Inc."
+ },
+ "BIO": {
+  "industria": "Medical Devices",
+  "nombre": "Bio-Rad Laboratories, Inc."
+ },
+ "BKIA.MC": {
+  "industria": null,
+  "nombre": null
+ },
+ "BKNG": {
+  "industria": "Travel Services",
+  "nombre": "Booking Holdings Inc. Common St"
+ },
+ "BKR": {
+  "industria": "Oil & Gas Equipment & Services",
+  "nombre": "Baker Hughes Company"
+ },
+ "BKT.MC": {
+  "industria": "Banks - Regional",
+  "nombre": "BANKINTER, S.A."
+ },
+ "BLDR": {
+  "industria": "Building Products & Equipment",
+  "nombre": "Builders FirstSource, Inc."
+ },
+ "BLK": {
+  "industria": "Asset Management",
+  "nombre": "BlackRock, Inc."
+ },
+ "BME.MC": {
+  "industria": null,
+  "nombre": null
+ },
+ "BMED.MI": {
+  "industria": "Banks - Regional",
+  "nombre": "BANCA MEDIOLANUM"
+ },
+ "BMPS.MI": {
+  "industria": "Banks - Regional",
+  "nombre": "BANCA MONTE PASCHI SIENA"
+ },
+ "BMRN": {
+  "industria": "Biotechnology",
+  "nombre": "BioMarin Pharmaceutical Inc."
+ },
+ "BMW.DE": {
+  "industria": "Auto Manufacturers",
+  "nombre": "BAYERISCHE MOTOREN WERKE AG   S"
+ },
+ "BMY": {
+  "industria": "Drug Manufacturers - General",
+  "nombre": "Bristol-Myers Squibb Company"
+ },
+ "BN.PA": {
+  "industria": "Packaged Foods",
+  "nombre": "DANONE"
+ },
+ "BNP.PA": {
+  "industria": "Banks - Regional",
+  "nombre": "BNP PARIBAS ACT.A"
+ },
+ "BNR.DE": {
+  "industria": "Specialty Chemicals",
+  "nombre": "Brenntag SE                   N"
+ },
+ "BNY": {
+  "industria": "Banks - Diversified",
+  "nombre": "The Bank of New York Mellon Cor"
+ },
+ "BOKA.AS": {
+  "industria": null,
+  "nombre": null
+ },
+ "BP.MI": {
+  "industria": null,
+  "nombre": null
+ },
+ "BPE.MI": {
+  "industria": "Banks - Regional",
+  "nombre": "BPER BANCA"
+ },
+ "BPSO.MI": {
+  "industria": null,
+  "nombre": null
+ },
+ "BR": {
+  "industria": "Information Technology Services",
+  "nombre": "Broadridge Financial Solutions,"
+ },
+ "BRCM": {
+  "industria": null,
+  "nombre": null
+ },
+ "BRE.MI": {
+  "industria": "Auto Parts",
+  "nombre": "BREMBO"
+ },
+ "BRK-B": {
+  "industria": "Insurance - Diversified",
+  "nombre": "Berkshire Hathaway Inc. New"
+ },
+ "BRO": {
+  "industria": "Insurance Brokers",
+  "nombre": "Brown & Brown, Inc."
+ },
+ "BSX": {
+  "industria": "Medical Devices",
+  "nombre": "Boston Scientific Corporation"
+ },
+ "BVI.PA": {
+  "industria": "Consulting Services",
+  "nombre": "BUREAU VERITAS"
+ },
+ "BWA": {
+  "industria": "Auto Parts",
+  "nombre": "BorgWarner Inc."
+ },
+ "BX": {
+  "industria": "Asset Management",
+  "nombre": "Blackstone Inc."
+ },
+ "BXLT": {
+  "industria": null,
+  "nombre": null
+ },
+ "BXP": {
+  "industria": "REIT - Office",
+  "nombre": "BXP, Inc."
+ },
+ "BZU.MI": {
+  "industria": "Building Materials",
+  "nombre": "BUZZI"
+ },
+ "C": {
+  "industria": "Banks - Diversified",
+  "nombre": "Citigroup, Inc."
+ },
+ "CA": {
+  "industria": null,
+  "nombre": null
+ },
+ "CA.PA": {
+  "industria": "Grocery Stores",
+  "nombre": "CARREFOUR"
+ },
+ "CABK.MC": {
+  "industria": "Banks - Regional",
+  "nombre": "CAIXABANK, S.A."
+ },
+ "CAG": {
+  "industria": "Packaged Foods",
+  "nombre": "ConAgra Brands, Inc."
+ },
+ "CAH": {
+  "industria": "Medical Distribution",
+  "nombre": "Cardinal Health, Inc."
+ },
+ "CAM": {
+  "industria": null,
+  "nombre": "AB California Intermediate Muni"
+ },
+ "CAP.PA": {
+  "industria": "Information Technology Services",
+  "nombre": "CAPGEMINI"
+ },
+ "CARR": {
+  "industria": "Building Products & Equipment",
+  "nombre": "Carrier Global Corporation"
+ },
+ "CASY": {
+  "industria": "Specialty Retail",
+  "nombre": "Caseys General Stores, Inc."
+ },
+ "CAT": {
+  "industria": "Farm & Heavy Construction Machinery",
+  "nombre": "Caterpillar, Inc."
+ },
+ "CB": {
+  "industria": "Insurance - Property & Casualty",
+  "nombre": "Chubb Limited"
+ },
+ "CBK.DE": {
+  "industria": "Banks - Regional",
+  "nombre": "Commerzbank AG                I"
+ },
+ "CBOE": {
+  "industria": "Financial Data & Stock Exchanges",
+  "nombre": "Cboe Global Markets, Inc."
+ },
+ "CBRE": {
+  "industria": "Real Estate Services",
+  "nombre": "CBRE Group Inc"
+ },
+ "CCE": {
+  "industria": null,
+  "nombre": null
+ },
+ "CCEP": {
+  "industria": "Beverages - Non-Alcoholic",
+  "nombre": "Coca-Cola Europacific Partners "
+ },
+ "CCI": {
+  "industria": "REIT - Specialty",
+  "nombre": "Crown Castle Inc."
+ },
+ "CCL": {
+  "industria": "Travel Services",
+  "nombre": "Carnival Corporation Ltd."
+ },
+ "CDNS": {
+  "industria": "Software - Application",
+  "nombre": "Cadence Design Systems, Inc."
+ },
+ "CDW": {
+  "industria": "Information Technology Services",
+  "nombre": "CDW Corporation"
+ },
+ "CE": {
+  "industria": "Chemicals",
+  "nombre": "Celanese Corporation"
+ },
+ "CEG": {
+  "industria": "Utilities - Independent Power Producers",
+  "nombre": "Constellation Energy Corporatio"
+ },
+ "CELG": {
+  "industria": null,
+  "nombre": null
+ },
+ "CERN": {
+  "industria": null,
+  "nombre": null
+ },
+ "CF": {
+  "industria": "Agricultural Inputs",
+  "nombre": "CF Industries Holdings, Inc."
+ },
+ "CFG": {
+  "industria": "Banks - Regional",
+  "nombre": "Citizens Financial Group, Inc."
+ },
+ "CFN": {
+  "industria": null,
+  "nombre": null
+ },
+ "CHD": {
+  "industria": "Household & Personal Products",
+  "nombre": "Church & Dwight Company, Inc."
+ },
+ "CHK": {
+  "industria": null,
+  "nombre": null
+ },
+ "CHKP": {
+  "industria": "Software - Infrastructure",
+  "nombre": "Check Point Software Technologi"
+ },
+ "CHRW": {
+  "industria": "Integrated Freight & Logistics",
+  "nombre": "C.H. Robinson Worldwide, Inc."
+ },
+ "CHTR": {
+  "industria": "Telecom Services",
+  "nombre": "Charter Communications, Inc."
+ },
+ "CI": {
+  "industria": "Healthcare Plans",
+  "nombre": "The Cigna Group"
+ },
+ "CIE.MC": {
+  "industria": "Auto Parts",
+  "nombre": "CIE AUTOMOTIVE, S.A."
+ },
+ "CIEN": {
+  "industria": "Communication Equipment",
+  "nombre": "Ciena Corporation"
+ },
+ "CINF": {
+  "industria": "Insurance - Property & Casualty",
+  "nombre": "Cincinnati Financial Corporatio"
+ },
+ "CL": {
+  "industria": "Household & Personal Products",
+  "nombre": "Colgate-Palmolive Company"
+ },
+ "CLNX.MC": {
+  "industria": "Real Estate Services",
+  "nombre": "CELLNEX TELECOM, S.A."
+ },
+ "CLX": {
+  "industria": "Household & Personal Products",
+  "nombre": "Clorox Company (The)"
+ },
+ "CMA": {
+  "industria": null,
+  "nombre": null
+ },
+ "CMCSA": {
+  "industria": "Telecom Services",
+  "nombre": "Comcast Corporation"
+ },
+ "CMCSK": {
+  "industria": null,
+  "nombre": null
+ },
+ "CME": {
+  "industria": "Financial Data & Stock Exchanges",
+  "nombre": "CME Group Inc."
+ },
+ "CMG": {
+  "industria": "Restaurants",
+  "nombre": "Chipotle Mexican Grill, Inc."
+ },
+ "CMI": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "Cummins Inc."
+ },
+ "CMS": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "CMS Energy Corporation"
+ },
+ "CNC": {
+  "industria": "Healthcare Plans",
+  "nombre": "Centene Corporation"
+ },
+ "CNHI.MI": {
+  "industria": null,
+  "nombre": null
+ },
+ "CNP": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "CenterPoint Energy, Inc (Holdin"
+ },
+ "CNX": {
+  "industria": "Oil & Gas E&P",
+  "nombre": "CNX Resources Corporation"
+ },
+ "COF": {
+  "industria": "Credit Services",
+  "nombre": "Capital One Financial Corporati"
+ },
+ "COHR": {
+  "industria": "Scientific & Technical Instruments",
+  "nombre": "Coherent Corp."
+ },
+ "COIN": {
+  "industria": "Financial Data & Stock Exchanges",
+  "nombre": "Coinbase Global, Inc."
+ },
+ "COL": {
+  "industria": null,
+  "nombre": null
+ },
+ "COL.MC": {
+  "industria": "REIT - Office",
+  "nombre": "COLONIAL SFL, SOCIMI. S.A."
+ },
+ "CON.DE": {
+  "industria": "Auto Parts",
+  "nombre": "CONTINENTAL AG                I"
+ },
+ "COO": {
+  "industria": "Medical Instruments & Supplies",
+  "nombre": "The Cooper Companies, Inc."
+ },
+ "COP": {
+  "industria": "Oil & Gas E&P",
+  "nombre": "ConocoPhillips"
+ },
+ "COR": {
+  "industria": "Medical Distribution",
+  "nombre": "Cencora, Inc."
+ },
+ "COST": {
+  "industria": "Discount Stores",
+  "nombre": "Costco Wholesale Corporation"
+ },
+ "COTY": {
+  "industria": "Household & Personal Products",
+  "nombre": "Coty Inc."
+ },
+ "COV": {
+  "industria": null,
+  "nombre": null
+ },
+ "CPAY": {
+  "industria": "Software - Infrastructure",
+  "nombre": "Corpay, Inc."
+ },
+ "CPB": {
+  "industria": "Packaged Foods",
+  "nombre": "The Campbell's Company"
+ },
+ "CPGX": {
+  "industria": null,
+  "nombre": null
+ },
+ "CPR.MI": {
+  "industria": "Beverages - Wineries & Distilleries",
+  "nombre": "CAMPARI"
+ },
+ "CPRI": {
+  "industria": "Luxury Goods",
+  "nombre": "Capri Holdings Limited"
+ },
+ "CPRT": {
+  "industria": "Specialty Business Services",
+  "nombre": "Copart, Inc."
+ },
+ "CPT": {
+  "industria": "REIT - Residential",
+  "nombre": "Camden Property Trust"
+ },
+ "CRH": {
+  "industria": "Building Materials",
+  "nombre": "CRH PLC"
+ },
+ "CRH.L": {
+  "industria": null,
+  "nombre": null
+ },
+ "CRL": {
+  "industria": "Diagnostics & Research",
+  "nombre": "Charles River Laboratories Inte"
+ },
+ "CRM": {
+  "industria": "Software - Application",
+  "nombre": "Salesforce, Inc."
+ },
+ "CRWD": {
+  "industria": "Software - Infrastructure",
+  "nombre": "CrowdStrike Holdings, Inc."
+ },
+ "CRWV": {
+  "industria": "Software - Infrastructure",
+  "nombre": "CoreWeave, Inc."
+ },
+ "CS.PA": {
+  "industria": "Insurance - Diversified",
+  "nombre": "AXA"
+ },
+ "CSCO": {
+  "industria": "Communication Equipment",
+  "nombre": "Cisco Systems, Inc."
+ },
+ "CSGP": {
+  "industria": "Real Estate Services",
+  "nombre": "CoStar Group, Inc."
+ },
+ "CSRA": {
+  "industria": null,
+  "nombre": "Cohen & Steers Real Assets Acti"
+ },
+ "CSX": {
+  "industria": "Railroads",
+  "nombre": "CSX Corporation"
+ },
+ "CTAS": {
+  "industria": "Specialty Business Services",
+  "nombre": "Cintas Corporation"
+ },
+ "CTLT": {
+  "industria": null,
+  "nombre": null
+ },
+ "CTRA": {
+  "industria": null,
+  "nombre": null
+ },
+ "CTRX": {
+  "industria": null,
+  "nombre": null
+ },
+ "CTSH": {
+  "industria": "Information Technology Services",
+  "nombre": "Cognizant Technology Solutions "
+ },
+ "CTVA": {
+  "industria": "Agricultural Inputs",
+  "nombre": "Corteva, Inc."
+ },
+ "CTXS": {
+  "industria": null,
+  "nombre": null
+ },
+ "CVC": {
+  "industria": null,
+  "nombre": null
+ },
+ "CVC.AS": {
+  "industria": "Asset Management",
+  "nombre": "CVC CAPITAL"
+ },
+ "CVNA": {
+  "industria": "Auto & Truck Dealerships",
+  "nombre": "Carvana Co."
+ },
+ "CVS": {
+  "industria": "Healthcare Plans",
+  "nombre": "CVS Health Corporation"
+ },
+ "CVX": {
+  "industria": "Oil & Gas Integrated",
+  "nombre": "Chevron Corporation"
+ },
+ "CXO": {
+  "industria": null,
+  "nombre": null
+ },
+ "CZR": {
+  "industria": "Resorts & Casinos",
+  "nombre": "Caesars Entertainment, Inc."
+ },
+ "D": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "Dominion Energy, Inc."
+ },
+ "DAL": {
+  "industria": "Airlines",
+  "nombre": "Delta Air Lines, Inc."
+ },
+ "DASH": {
+  "industria": "Internet Retail",
+  "nombre": "DoorDash, Inc."
+ },
+ "DAY": {
+  "industria": null,
+  "nombre": null
+ },
+ "DB1.DE": {
+  "industria": "Financial Data & Stock Exchanges",
+  "nombre": "DEUTSCHE BOERSE AG            N"
+ },
+ "DBK.DE": {
+  "industria": "Banks - Regional",
+  "nombre": "DEUTSCHE BANK AG              N"
+ },
+ "DD": {
+  "industria": "Specialty Chemicals",
+  "nombre": "DuPont de Nemours, Inc."
+ },
+ "DDOG": {
+  "industria": "Software - Application",
+  "nombre": "Datadog, Inc."
+ },
+ "DE": {
+  "industria": "Farm & Heavy Construction Machinery",
+  "nombre": "Deere & Company"
+ },
+ "DECK": {
+  "industria": "Footwear & Accessories",
+  "nombre": "Deckers Outdoor Corporation"
+ },
+ "DELL": {
+  "industria": "Computer Hardware",
+  "nombre": "Dell Technologies Inc."
+ },
+ "DFS": {
+  "industria": null,
+  "nombre": null
+ },
+ "DG": {
+  "industria": "Discount Stores",
+  "nombre": "Dollar General Corporation"
+ },
+ "DG.PA": {
+  "industria": "Engineering & Construction",
+  "nombre": "VINCI"
+ },
+ "DGX": {
+  "industria": "Diagnostics & Research",
+  "nombre": "Quest Diagnostics Incorporated"
+ },
+ "DHER.DE": {
+  "industria": "Internet Retail",
+  "nombre": "Delivery Hero SE              N"
+ },
+ "DHI": {
+  "industria": "Residential Construction",
+  "nombre": "D.R. Horton, Inc."
+ },
+ "DHL.DE": {
+  "industria": "Integrated Freight & Logistics",
+  "nombre": "DHL AG                        N"
+ },
+ "DHR": {
+  "industria": "Diagnostics & Research",
+  "nombre": "Danaher Corporation"
+ },
+ "DIA.MC": {
+  "industria": "Discount Stores",
+  "nombre": "DISTRIBUIDORA INTERNACIONAL DE "
+ },
+ "DIA.MI": {
+  "industria": "Diagnostics & Research",
+  "nombre": "DIASORIN"
+ },
+ "DIS": {
+  "industria": "Entertainment",
+  "nombre": "Walt Disney Company (The)"
+ },
+ "DISH": {
+  "industria": null,
+  "nombre": null
+ },
+ "DL.AS": {
+  "industria": null,
+  "nombre": null
+ },
+ "DLR": {
+  "industria": "REIT - Specialty",
+  "nombre": "Digital Realty Trust, Inc."
+ },
+ "DLTR": {
+  "industria": "Discount Stores",
+  "nombre": "Dollar Tree, Inc."
+ },
+ "DNB": {
+  "industria": null,
+  "nombre": null
+ },
+ "DNR": {
+  "industria": null,
+  "nombre": null
+ },
+ "DO": {
+  "industria": null,
+  "nombre": null
+ },
+ "DOC": {
+  "industria": "REIT - Healthcare Facilities",
+  "nombre": "Healthpeak Properties, Inc."
+ },
+ "DOCU": {
+  "industria": "Software - Application",
+  "nombre": "DocuSign, Inc."
+ },
+ "DOV": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "Dover Corporation"
+ },
+ "DOW": {
+  "industria": "Chemicals",
+  "nombre": "Dow Inc."
+ },
+ "DPZ": {
+  "industria": "Restaurants",
+  "nombre": "Domino's Pizza Inc"
+ },
+ "DRE": {
+  "industria": null,
+  "nombre": null
+ },
+ "DRI": {
+  "industria": "Restaurants",
+  "nombre": "Darden Restaurants, Inc."
+ },
+ "DSFIR.AS": {
+  "industria": "Specialty Chemicals",
+  "nombre": "DSM FIRMENICH AG"
+ },
+ "DSY.PA": {
+  "industria": "Software - Application",
+  "nombre": "DASSAULT SYSTEMES"
+ },
+ "DTE": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "DTE Energy Company"
+ },
+ "DTE.DE": {
+  "industria": "Telecom Services",
+  "nombre": "DEUTSCHE TELEKOM AG           N"
+ },
+ "DTG.DE": {
+  "industria": "Farm & Heavy Construction Machinery",
+  "nombre": "Daimler Truck Holding AG      N"
+ },
+ "DTV": {
+  "industria": null,
+  "nombre": null
+ },
+ "DUK": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "Duke Energy Corporation (Holdin"
+ },
+ "DVA": {
+  "industria": "Medical Care Facilities",
+  "nombre": "DaVita Inc."
+ },
+ "DVN": {
+  "industria": "Oil & Gas E&P",
+  "nombre": "Devon Energy Corporation"
+ },
+ "DWNI.DE": {
+  "industria": "Real Estate Services",
+  "nombre": "Deutsche Wohnen SE            I"
+ },
+ "DXC": {
+  "industria": "Information Technology Services",
+  "nombre": "DXC Technology Company"
+ },
+ "DXCM": {
+  "industria": "Medical Devices",
+  "nombre": "DexCom, Inc."
+ },
+ "EA": {
+  "industria": "Electronic Gaming & Multimedia",
+  "nombre": "Electronic Arts Inc."
+ },
+ "EAPI.PA": {
+  "industria": "Drug Manufacturers - Specialty & Generic",
+  "nombre": "EUROAPI SA"
+ },
+ "EBAY": {
+  "industria": "Internet Retail",
+  "nombre": "eBay Inc."
+ },
+ "ECHO": {
+  "industria": "Telecom Services",
+  "nombre": "EchoStar Corporation"
+ },
+ "ECL": {
+  "industria": "Specialty Chemicals",
+  "nombre": "Ecolab Inc."
+ },
+ "ED": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "Consolidated Edison, Inc."
+ },
+ "EDEN.PA": {
+  "industria": "Credit Services",
+  "nombre": "EDENRED"
+ },
+ "EDF.PA": {
+  "industria": null,
+  "nombre": null
+ },
+ "EFX": {
+  "industria": "Consulting Services",
+  "nombre": "Equifax, Inc."
+ },
+ "EG": {
+  "industria": "Insurance - Reinsurance",
+  "nombre": "Everest Group, Ltd."
+ },
+ "EIX": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "Edison International"
+ },
+ "EL": {
+  "industria": "Household & Personal Products",
+  "nombre": "Estee Lauder Companies, Inc. (T"
+ },
+ "EL.PA": {
+  "industria": "Medical Instruments & Supplies",
+  "nombre": "ESSILORLUXOTTICA"
+ },
+ "ELE.MC": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "ENDESA,S.A."
+ },
+ "ELV": {
+  "industria": "Healthcare Plans",
+  "nombre": "Elevance Health, Inc."
+ },
+ "EMC": {
+  "industria": null,
+  "nombre": "Global X Emerging Markets Great"
+ },
+ "EME": {
+  "industria": "Engineering & Construction",
+  "nombre": "EMCOR Group, Inc."
+ },
+ "EMN": {
+  "industria": "Specialty Chemicals",
+  "nombre": "Eastman Chemical Company"
+ },
+ "EMR": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "Emerson Electric Company"
+ },
+ "EN.PA": {
+  "industria": "Engineering & Construction",
+  "nombre": "BOUYGUES"
+ },
+ "ENC.MC": {
+  "industria": "Paper & Paper Products",
+  "nombre": "ENCE ENERGIA Y CELULOSA, S.A."
+ },
+ "ENDP": {
+  "industria": null,
+  "nombre": null
+ },
+ "ENEL.MI": {
+  "industria": "Utilities - Diversified",
+  "nombre": "ENEL"
+ },
+ "ENG.MC": {
+  "industria": "Utilities - Regulated Gas",
+  "nombre": "ENAGAS,S.A."
+ },
+ "ENGI.PA": {
+  "industria": "Utilities - Diversified",
+  "nombre": "ENGIE"
+ },
+ "ENI.MI": {
+  "industria": "Oil & Gas Integrated",
+  "nombre": "ENI"
+ },
+ "ENPH": {
+  "industria": "Solar",
+  "nombre": "Enphase Energy, Inc."
+ },
+ "ENR.DE": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "Siemens Energy AG             N"
+ },
+ "ENX.PA": {
+  "industria": "Financial Data & Stock Exchanges",
+  "nombre": "EURONEXT"
+ },
+ "EOAN.DE": {
+  "industria": "Utilities - Diversified",
+  "nombre": "E.ON SE                       N"
+ },
+ "EOG": {
+  "industria": "Oil & Gas E&P",
+  "nombre": "EOG Resources, Inc."
+ },
+ "EPAM": {
+  "industria": "Information Technology Services",
+  "nombre": "EPAM Systems, Inc."
+ },
+ "EQIX": {
+  "industria": "REIT - Specialty",
+  "nombre": "Equinix, Inc."
+ },
+ "EQT": {
+  "industria": "Oil & Gas E&P",
+  "nombre": "EQT Corporation"
+ },
+ "ERF.PA": {
+  "industria": "Diagnostics & Research",
+  "nombre": "EUROFINS SCIENT."
+ },
+ "ERG.MI": {
+  "industria": "Utilities - Renewable",
+  "nombre": "ERG"
+ },
+ "ERIE": {
+  "industria": "Insurance Brokers",
+  "nombre": "Erie Indemnity Company"
+ },
+ "ES": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "Eversource Energy (D/B/A)"
+ },
+ "ESRX": {
+  "industria": null,
+  "nombre": null
+ },
+ "ESS": {
+  "industria": "REIT - Residential",
+  "nombre": "Essex Property Trust, Inc."
+ },
+ "ESV": {
+  "industria": null,
+  "nombre": null
+ },
+ "ETFC": {
+  "industria": null,
+  "nombre": null
+ },
+ "ETN": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "Eaton Corporation, PLC"
+ },
+ "ETR": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "Entergy Corporation"
+ },
+ "ETSY": {
+  "industria": "Internet Retail",
+  "nombre": "Etsy, Inc."
+ },
+ "EVHC": {
+  "industria": null,
+  "nombre": null
+ },
+ "EVRG": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "Evergy, Inc."
+ },
+ "EW": {
+  "industria": "Medical Devices",
+  "nombre": "Edwards Lifesciences Corporatio"
+ },
+ "EXC": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "Exelon Corporation"
+ },
+ "EXE": {
+  "industria": "Oil & Gas E&P",
+  "nombre": "Expand Energy Corporation"
+ },
+ "EXO.AS": {
+  "industria": "Asset Management",
+  "nombre": "EXOR"
+ },
+ "EXPD": {
+  "industria": "Integrated Freight & Logistics",
+  "nombre": "Expeditors International of Was"
+ },
+ "EXPE": {
+  "industria": "Travel Services",
+  "nombre": "Expedia Group, Inc."
+ },
+ "EXR": {
+  "industria": "REIT - Industrial",
+  "nombre": "Extra Space Storage Inc"
+ },
+ "F": {
+  "industria": "Auto Manufacturers",
+  "nombre": "Ford Motor Company"
+ },
+ "FANG": {
+  "industria": "Oil & Gas E&P",
+  "nombre": "Diamondback Energy, Inc."
+ },
+ "FAST": {
+  "industria": "Industrial Distribution",
+  "nombre": "Fastenal Company"
+ },
+ "FBHS": {
+  "industria": null,
+  "nombre": null
+ },
+ "FBK.MI": {
+  "industria": "Banks - Regional",
+  "nombre": "FINECOBANK"
+ },
+ "FCC.MC": {
+  "industria": "Waste Management",
+  "nombre": "ACCIONES FOMENTO DE CONSTRUCCIO"
+ },
+ "FCPT": {
+  "industria": "REIT - Retail",
+  "nombre": "Four Corners Property Trust, In"
+ },
+ "FCT.MI": {
+  "industria": "Aerospace & Defense",
+  "nombre": "FINCANTIERI"
+ },
+ "FCX": {
+  "industria": "Copper",
+  "nombre": "Freeport-McMoRan, Inc."
+ },
+ "FDO": {
+  "industria": null,
+  "nombre": null
+ },
+ "FDR.MC": {
+  "industria": "Leisure",
+  "nombre": "FLUIDRA, S.A."
+ },
+ "FDS": {
+  "industria": "Financial Data & Stock Exchanges",
+  "nombre": "FactSet Research Systems Inc."
+ },
+ "FDX": {
+  "industria": "Integrated Freight & Logistics",
+  "nombre": "FedEx Corporation"
+ },
+ "FDXF": {
+  "industria": "Integrated Freight & Logistics",
+  "nombre": "FedEx Freight Holding Company, "
+ },
+ "FE": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "FirstEnergy Corp."
+ },
+ "FER": {
+  "industria": "Engineering & Construction",
+  "nombre": "Ferrovial N.V."
+ },
+ "FER.MC": {
+  "industria": "Engineering & Construction",
+  "nombre": "FERROVIAL N.V."
+ },
+ "FERG": {
+  "industria": "Industrial Distribution",
+  "nombre": "Ferguson Enterprises Inc."
+ },
+ "FFIV": {
+  "industria": "Software - Infrastructure",
+  "nombre": "F5, Inc."
+ },
+ "FGR.PA": {
+  "industria": "Engineering & Construction",
+  "nombre": "EIFFAGE"
+ },
+ "FICO": {
+  "industria": "Software - Application",
+  "nombre": "Fair Isaac Corporation"
+ },
+ "FIS": {
+  "industria": "Information Technology Services",
+  "nombre": "Fidelity National Information S"
+ },
+ "FISV": {
+  "industria": null,
+  "nombre": "Fiserv, Inc."
+ },
+ "FITB": {
+  "industria": "Banks - Regional",
+  "nombre": "Fifth Third Bancorp"
+ },
+ "FIX": {
+  "industria": "Engineering & Construction",
+  "nombre": "Comfort Systems USA, Inc."
+ },
+ "FL": {
+  "industria": null,
+  "nombre": null
+ },
+ "FLEX": {
+  "industria": "Electronic Components",
+  "nombre": "Flex Ltd."
+ },
+ "FLIR": {
+  "industria": null,
+  "nombre": null
+ },
+ "FLR": {
+  "industria": "Engineering & Construction",
+  "nombre": "Fluor Corporation"
+ },
+ "FLS": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "Flowserve Corporation"
+ },
+ "FMC": {
+  "industria": "Agricultural Inputs",
+  "nombre": "FMC Corporation"
+ },
+ "FME.DE": {
+  "industria": "Medical Care Facilities",
+  "nombre": "Fresenius Medical Care AG     I"
+ },
+ "FOSL": {
+  "industria": "Footwear & Accessories",
+  "nombre": "Fossil Group, Inc."
+ },
+ "FOX": {
+  "industria": "Entertainment",
+  "nombre": "Fox Corporation"
+ },
+ "FOXA": {
+  "industria": "Entertainment",
+  "nombre": "Fox Corporation"
+ },
+ "FR.PA": {
+  "industria": "Auto Parts",
+  "nombre": "VALEO"
+ },
+ "FRC": {
+  "industria": null,
+  "nombre": null
+ },
+ "FRE.DE": {
+  "industria": "Medical Care Facilities",
+  "nombre": "Fresenius SE & Co. KGaA       N"
+ },
+ "FRT": {
+  "industria": "REIT - Retail",
+  "nombre": "Federal Realty Investment Trust"
+ },
+ "FSLR": {
+  "industria": "Solar",
+  "nombre": "First Solar, Inc."
+ },
+ "FTI": {
+  "industria": "Oil & Gas Equipment & Services",
+  "nombre": "TechnipFMC plc"
+ },
+ "FTI.PA": {
+  "industria": null,
+  "nombre": null
+ },
+ "FTNT": {
+  "industria": "Software - Infrastructure",
+  "nombre": "Fortinet, Inc."
+ },
+ "FTR": {
+  "industria": null,
+  "nombre": null
+ },
+ "FTV": {
+  "industria": "Scientific & Technical Instruments",
+  "nombre": "Fortive Corporation"
+ },
+ "FUR.AS": {
+  "industria": "Oil & Gas Equipment & Services",
+  "nombre": "FUGRO"
+ },
+ "G.MI": {
+  "industria": "Insurance - Diversified",
+  "nombre": "GENERALI"
+ },
+ "G1A.DE": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "GEA Group AG                  I"
+ },
+ "G24.DE": {
+  "industria": "Internet Content & Information",
+  "nombre": "Scout24 SE                    N"
+ },
+ "GAS": {
+  "industria": null,
+  "nombre": null
+ },
+ "GD": {
+  "industria": "Aerospace & Defense",
+  "nombre": "General Dynamics Corporation"
+ },
+ "GDDY": {
+  "industria": "Software - Infrastructure",
+  "nombre": "GoDaddy Inc."
+ },
+ "GE": {
+  "industria": "Aerospace & Defense",
+  "nombre": "GE Aerospace"
+ },
+ "GEHC": {
+  "industria": "Medical Devices",
+  "nombre": "GE HealthCare Technologies Inc."
+ },
+ "GEN": {
+  "industria": "Software - Infrastructure",
+  "nombre": "Gen Digital Inc."
+ },
+ "GEV": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "GE Vernova Inc."
+ },
+ "GFS": {
+  "industria": "Semiconductors",
+  "nombre": "GlobalFoundries Inc."
+ },
+ "GGP": {
+  "industria": null,
+  "nombre": null
+ },
+ "GILD": {
+  "industria": "Drug Manufacturers - General",
+  "nombre": "Gilead Sciences, Inc."
+ },
+ "GIS": {
+  "industria": "Packaged Foods",
+  "nombre": "General Mills, Inc."
+ },
+ "GL": {
+  "industria": "Insurance - Life",
+  "nombre": "Globe Life Inc."
+ },
+ "GLE.PA": {
+  "industria": "Banks - Regional",
+  "nombre": "SOCIETE GENERALE"
+ },
+ "GLPG.AS": {
+  "industria": null,
+  "nombre": null
+ },
+ "GLW": {
+  "industria": "Electronic Components",
+  "nombre": "Corning Incorporated"
+ },
+ "GM": {
+  "industria": "Auto Manufacturers",
+  "nombre": "General Motors Company"
+ },
+ "GMCR": {
+  "industria": null,
+  "nombre": null
+ },
+ "GME": {
+  "industria": "Specialty Retail",
+  "nombre": "GameStop Corporation"
+ },
+ "GNRC": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "Generac Holdlings Inc."
+ },
+ "GNW": {
+  "industria": "Insurance - Life",
+  "nombre": "Genworth Financial Inc"
+ },
+ "GOOG": {
+  "industria": "Internet Content & Information",
+  "nombre": "Alphabet Inc."
+ },
+ "GOOGL": {
+  "industria": "Internet Content & Information",
+  "nombre": "Alphabet Inc."
+ },
+ "GPC": {
+  "industria": "Auto Parts",
+  "nombre": "Genuine Parts Company"
+ },
+ "GPN": {
+  "industria": "Specialty Business Services",
+  "nombre": "Global Payments Inc."
+ },
+ "GPS": {
+  "industria": null,
+  "nombre": null
+ },
+ "GRF.MC": {
+  "industria": "Drug Manufacturers - General",
+  "nombre": "GRIFOLS S.A."
+ },
+ "GRMN": {
+  "industria": "Scientific & Technical Instruments",
+  "nombre": "Garmin Ltd."
+ },
+ "GS": {
+  "industria": "Capital Markets",
+  "nombre": "Goldman Sachs Group, Inc. (The)"
+ },
+ "GT": {
+  "industria": "Auto Parts",
+  "nombre": "The Goodyear Tire & Rubber Comp"
+ },
+ "GTO.AS": {
+  "industria": null,
+  "nombre": null
+ },
+ "GWW": {
+  "industria": "Industrial Distribution",
+  "nombre": "W.W. Grainger, Inc."
+ },
+ "HAL": {
+  "industria": "Oil & Gas Equipment & Services",
+  "nombre": "Halliburton Company"
+ },
+ "HAR": {
+  "industria": null,
+  "nombre": null
+ },
+ "HAS": {
+  "industria": "Leisure",
+  "nombre": "Hasbro, Inc."
+ },
+ "HBAN": {
+  "industria": "Banks - Regional",
+  "nombre": "Huntington Bancshares Incorpora"
+ },
+ "HBI": {
+  "industria": null,
+  "nombre": null
+ },
+ "HCA": {
+  "industria": "Medical Care Facilities",
+  "nombre": "HCA Healthcare, Inc."
+ },
+ "HCBK": {
+  "industria": null,
+  "nombre": null
+ },
+ "HD": {
+  "industria": "Home Improvement Retail",
+  "nombre": "Home Depot, Inc. (The)"
+ },
+ "HEI.DE": {
+  "industria": "Building Materials",
+  "nombre": "Heidelberg Materials AG       I"
+ },
+ "HEIA.AS": {
+  "industria": "Beverages - Brewers",
+  "nombre": "HEINEKEN"
+ },
+ "HEN3.DE": {
+  "industria": "Household & Personal Products",
+  "nombre": "Henkel AG & Co. KGaA          I"
+ },
+ "HER.MI": {
+  "industria": "Utilities - Diversified",
+  "nombre": "HERA"
+ },
+ "HES": {
+  "industria": null,
+  "nombre": null
+ },
+ "HFC": {
+  "industria": null,
+  "nombre": null
+ },
+ "HFG.DE": {
+  "industria": "Grocery Stores",
+  "nombre": "HelloFresh SE                 I"
+ },
+ "HIG": {
+  "industria": "Insurance - Diversified",
+  "nombre": "The Hartford Insurance Group, I"
+ },
+ "HII": {
+  "industria": "Aerospace & Defense",
+  "nombre": "Huntington Ingalls Industries, "
+ },
+ "HLT": {
+  "industria": "Lodging",
+  "nombre": "Hilton Worldwide Holdings Inc."
+ },
+ "HNR1.DE": {
+  "industria": "Insurance - Reinsurance",
+  "nombre": "HANNOVER RUECK SE NA O.N."
+ },
+ "HO.PA": {
+  "industria": "Aerospace & Defense",
+  "nombre": "THALES"
+ },
+ "HOG": {
+  "industria": "Recreational Vehicles",
+  "nombre": "Harley-Davidson, Inc."
+ },
+ "HOLX": {
+  "industria": null,
+  "nombre": null
+ },
+ "HON": {
+  "industria": "Conglomerates",
+  "nombre": "Honeywell International Inc."
+ },
+ "HONA": {
+  "industria": "Aerospace & Defense",
+  "nombre": "Honeywell Aerospace Inc."
+ },
+ "HOOD": {
+  "industria": "Capital Markets",
+  "nombre": "Robinhood Markets, Inc."
+ },
+ "HOT": {
+  "industria": null,
+  "nombre": null
+ },
+ "HOT.DE": {
+  "industria": "Engineering & Construction",
+  "nombre": "HOCHTIEF AG                   I"
+ },
+ "HP": {
+  "industria": "Oil & Gas Drilling",
+  "nombre": "Helmerich & Payne, Inc."
+ },
+ "HPE": {
+  "industria": "Communication Equipment",
+  "nombre": "Hewlett Packard Enterprise Comp"
+ },
+ "HPQ": {
+  "industria": "Computer Hardware",
+  "nombre": "HP Inc."
+ },
+ "HRB": {
+  "industria": "Personal Services",
+  "nombre": "H&R Block, Inc."
+ },
+ "HRL": {
+  "industria": "Packaged Foods",
+  "nombre": "Hormel Foods Corporation"
+ },
+ "HSIC": {
+  "industria": "Medical Distribution",
+  "nombre": "Henry Schein, Inc."
+ },
+ "HSP": {
+  "industria": null,
+  "nombre": null
+ },
+ "HST": {
+  "industria": "REIT - Hotel & Motel",
+  "nombre": "Host Hotels & Resorts, Inc."
+ },
+ "HSY": {
+  "industria": "Confectioners",
+  "nombre": "The Hershey Company"
+ },
+ "HUBB": {
+  "industria": "Electrical Equipment & Parts",
+  "nombre": "Hubbell Inc"
+ },
+ "HUM": {
+  "industria": "Healthcare Plans",
+  "nombre": "Humana Inc."
+ },
+ "HWM": {
+  "industria": "Aerospace & Defense",
+  "nombre": "Howmet Aerospace Inc."
+ },
+ "IAG.MC": {
+  "industria": "Airlines",
+  "nombre": "INTL CONSOLIDATED AIRLINES GROU"
+ },
+ "IBE.MC": {
+  "industria": "Utilities - Diversified",
+  "nombre": "ACCIONES IBERDROLA"
+ },
+ "IBKR": {
+  "industria": "Capital Markets",
+  "nombre": "Interactive Brokers Group, Inc."
+ },
+ "IBM": {
+  "industria": "Information Technology Services",
+  "nombre": "International Business Machines"
+ },
+ "ICE": {
+  "industria": "Financial Data & Stock Exchanges",
+  "nombre": "Intercontinental Exchange Inc."
+ },
+ "IDR.MC": {
+  "industria": "Information Technology Services",
+  "nombre": "INDRA SISTEMAS S.A., SERIE A"
+ },
+ "IDXX": {
+  "industria": "Diagnostics & Research",
+  "nombre": "IDEXX Laboratories, Inc."
+ },
+ "IEX": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "IDEX Corporation"
+ },
+ "IFF": {
+  "industria": "Specialty Chemicals",
+  "nombre": "International Flavors & Fragran"
+ },
+ "IFX.DE": {
+  "industria": "Semiconductors",
+  "nombre": "INFINEON TECHNOLOGIES AG      N"
+ },
+ "IG.MI": {
+  "industria": "Utilities - Regulated Gas",
+  "nombre": "ITALGAS"
+ },
+ "ILMN": {
+  "industria": "Diagnostics & Research",
+  "nombre": "Illumina, Inc."
+ },
+ "IMCD.AS": {
+  "industria": "Specialty Chemicals",
+  "nombre": "IMCD"
+ },
+ "INCY": {
+  "industria": "Biotechnology",
+  "nombre": "Incyte Corporation"
+ },
+ "INFO": {
+  "industria": null,
+  "nombre": "Harbor PanAgora Dynamic Large C"
+ },
+ "INGA.AS": {
+  "industria": "Banks - Diversified",
+  "nombre": "ING GROEP N.V."
+ },
+ "INPST.AS": {
+  "industria": "Integrated Freight & Logistics",
+  "nombre": "INPOST S.A."
+ },
+ "INSM": {
+  "industria": "Biotechnology",
+  "nombre": "Insmed Incorporated"
+ },
+ "INTC": {
+  "industria": "Semiconductors",
+  "nombre": "Intel Corporation"
+ },
+ "INTU": {
+  "industria": "Software - Application",
+  "nombre": "Intuit Inc."
+ },
+ "INVH": {
+  "industria": "REIT - Residential",
+  "nombre": "Invitation Homes Inc."
+ },
+ "INW.MI": {
+  "industria": "Real Estate Services",
+  "nombre": "INWIT"
+ },
+ "IP": {
+  "industria": "Packaging & Containers",
+  "nombre": "International Paper Company"
+ },
+ "IP.MI": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "INTERPUMP GROUP"
+ },
+ "IPG": {
+  "industria": null,
+  "nombre": null
+ },
+ "IPGP": {
+  "industria": "Semiconductor Equipment & Materials",
+  "nombre": "IPG Photonics Corporation"
+ },
+ "IQV": {
+  "industria": "Diagnostics & Research",
+  "nombre": "IQVIA Holdings, Inc."
+ },
+ "IR": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "Ingersoll Rand Inc."
+ },
+ "IRM": {
+  "industria": "REIT - Specialty",
+  "nombre": "Iron Mountain Incorporated (Del"
+ },
+ "ISP.MI": {
+  "industria": "Banks - Regional",
+  "nombre": "INTESA SANPAOLO"
+ },
+ "ISRG": {
+  "industria": "Medical Instruments & Supplies",
+  "nombre": "Intuitive Surgical, Inc."
+ },
+ "IT": {
+  "industria": "Information Technology Services",
+  "nombre": "Gartner, Inc."
+ },
+ "ITW": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "Illinois Tool Works Inc."
+ },
+ "ITX.MC": {
+  "industria": "Apparel Retail",
+  "nombre": null
+ },
+ "IVG.MI": {
+  "industria": "Farm & Heavy Construction Machinery",
+  "nombre": "IVECO GROUP"
+ },
+ "IVZ": {
+  "industria": "Asset Management",
+  "nombre": "Invesco Ltd"
+ },
+ "J": {
+  "industria": "Engineering & Construction",
+  "nombre": "Jacobs Solutions Inc."
+ },
+ "JAZ.MC": {
+  "industria": null,
+  "nombre": null
+ },
+ "JBHT": {
+  "industria": "Integrated Freight & Logistics",
+  "nombre": "J.B. Hunt Transport Services, I"
+ },
+ "JBL": {
+  "industria": "Electronic Components",
+  "nombre": "Jabil Inc."
+ },
+ "JCI": {
+  "industria": "Building Products & Equipment",
+  "nombre": "Johnson Controls International "
+ },
+ "JD": {
+  "industria": "Internet Retail",
+  "nombre": "JD.com, Inc."
+ },
+ "JDEP.AS": {
+  "industria": null,
+  "nombre": null
+ },
+ "JEF": {
+  "industria": "Capital Markets",
+  "nombre": "Jefferies Financial Group Inc."
+ },
+ "JKHY": {
+  "industria": "Information Technology Services",
+  "nombre": "Jack Henry & Associates, Inc."
+ },
+ "JNJ": {
+  "industria": "Drug Manufacturers - General",
+  "nombre": "Johnson & Johnson"
+ },
+ "JNPR": {
+  "industria": null,
+  "nombre": null
+ },
+ "JOY": {
+  "industria": null,
+  "nombre": null
+ },
+ "JPM": {
+  "industria": "Banks - Diversified",
+  "nombre": "JP Morgan Chase & Co."
+ },
+ "JUVE.MI": {
+  "industria": "Entertainment",
+  "nombre": "JUVENTUS FC"
+ },
+ "JWN": {
+  "industria": null,
+  "nombre": null
+ },
+ "K": {
+  "industria": null,
+  "nombre": null
+ },
+ "KDP": {
+  "industria": "Beverages - Non-Alcoholic",
+  "nombre": "Keurig Dr Pepper Inc."
+ },
+ "KER.PA": {
+  "industria": "Luxury Goods",
+  "nombre": "KERING"
+ },
+ "KEY": {
+  "industria": "Banks - Regional",
+  "nombre": "KeyCorp"
+ },
+ "KEYS": {
+  "industria": "Scientific & Technical Instruments",
+  "nombre": "Keysight Technologies Inc."
+ },
+ "KHC": {
+  "industria": "Packaged Foods",
+  "nombre": "The Kraft Heinz Company"
+ },
+ "KIM": {
+  "industria": "REIT - Retail",
+  "nombre": "Kimco Realty Corporation (HC)"
+ },
+ "KKR": {
+  "industria": "Asset Management",
+  "nombre": "KKR & Co. Inc."
+ },
+ "KLAC": {
+  "industria": "Semiconductor Equipment & Materials",
+  "nombre": "KLA Corporation"
+ },
+ "KMB": {
+  "industria": "Household & Personal Products",
+  "nombre": "Kimberly-Clark Corporation"
+ },
+ "KMI": {
+  "industria": "Oil & Gas Midstream",
+  "nombre": "Kinder Morgan, Inc."
+ },
+ "KMX": {
+  "industria": "Auto & Truck Dealerships",
+  "nombre": "CarMax Inc"
+ },
+ "KNEBV.HE": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "KONE Corporation"
+ },
+ "KO": {
+  "industria": "Beverages - Non-Alcoholic",
+  "nombre": "Coca-Cola Company (The)"
+ },
+ "KORS": {
+  "industria": null,
+  "nombre": null
+ },
+ "KPN.AS": {
+  "industria": "Telecom Services",
+  "nombre": "KPN KON"
+ },
+ "KR": {
+  "industria": "Grocery Stores",
+  "nombre": "Kroger Company (The)"
+ },
+ "KRFT": {
+  "industria": null,
+  "nombre": null
+ },
+ "KSS": {
+  "industria": "Department Stores",
+  "nombre": "Kohl's Corporation"
+ },
+ "KSU": {
+  "industria": null,
+  "nombre": null
+ },
+ "KVUE": {
+  "industria": "Household & Personal Products",
+  "nombre": "Kenvue Inc."
+ },
+ "L": {
+  "industria": "Insurance - Property & Casualty",
+  "nombre": "Loews Corporation"
+ },
+ "LBTYA": {
+  "industria": "Telecom Services",
+  "nombre": "Liberty Global Ltd."
+ },
+ "LBTYK": {
+  "industria": "Telecom Services",
+  "nombre": "Liberty Global Ltd."
+ },
+ "LCID": {
+  "industria": "Auto Manufacturers",
+  "nombre": "Lucid Group, Inc."
+ },
+ "LDO.MI": {
+  "industria": "Aerospace & Defense",
+  "nombre": "LEONARDO"
+ },
+ "LDOS": {
+  "industria": "Information Technology Services",
+  "nombre": "Leidos Holdings, Inc."
+ },
+ "LEG": {
+  "industria": "Furnishings, Fixtures & Appliances",
+  "nombre": "Leggett & Platt, Incorporated"
+ },
+ "LEN": {
+  "industria": "Residential Construction",
+  "nombre": "Lennar Corporation"
+ },
+ "LH": {
+  "industria": "Diagnostics & Research",
+  "nombre": "Labcorp Holdings Inc."
+ },
+ "LHA.DE": {
+  "industria": "Airlines",
+  "nombre": "DEUTSCHE LUFTHANSA AG         V"
+ },
+ "LHN.PA": {
+  "industria": null,
+  "nombre": null
+ },
+ "LHX": {
+  "industria": "Aerospace & Defense",
+  "nombre": "L3Harris Technologies, Inc."
+ },
+ "LI.PA": {
+  "industria": "REIT - Retail",
+  "nombre": "KLEPIERRE"
+ },
+ "LIGHT.AS": {
+  "industria": "Electrical Equipment & Parts",
+  "nombre": "SIGNIFY NV"
+ },
+ "LII": {
+  "industria": "Building Products & Equipment",
+  "nombre": "Lennox International, Inc."
+ },
+ "LILA": {
+  "industria": "Telecom Services",
+  "nombre": "Liberty Latin America Ltd."
+ },
+ "LILAK": {
+  "industria": "Telecom Services",
+  "nombre": "Liberty Latin America Ltd."
+ },
+ "LIN": {
+  "industria": "Specialty Chemicals",
+  "nombre": "Linde plc"
+ },
+ "LIN.DE": {
+  "industria": null,
+  "nombre": "Linde plc                     R"
+ },
+ "LITE": {
+  "industria": "Communication Equipment",
+  "nombre": "Lumentum Holdings Inc."
+ },
+ "LKQ": {
+  "industria": "Auto Parts",
+  "nombre": "LKQ Corporation"
+ },
+ "LLL": {
+  "industria": null,
+  "nombre": null
+ },
+ "LLTC": {
+  "industria": null,
+  "nombre": null
+ },
+ "LLY": {
+  "industria": "Drug Manufacturers - General",
+  "nombre": "Eli Lilly and Company"
+ },
+ "LM": {
+  "industria": null,
+  "nombre": null
+ },
+ "LMCA": {
+  "industria": null,
+  "nombre": null
+ },
+ "LMCK": {
+  "industria": null,
+  "nombre": null
+ },
+ "LMT": {
+  "industria": "Aerospace & Defense",
+  "nombre": "Lockheed Martin Corporation"
+ },
+ "LNC": {
+  "industria": "Insurance - Life",
+  "nombre": "Lincoln National Corporation"
+ },
+ "LNT": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "Alliant Energy Corporation"
+ },
+ "LO": {
+  "industria": null,
+  "nombre": null
+ },
+ "LOG.MC": {
+  "industria": "Integrated Freight & Logistics",
+  "nombre": "COMPA...IA DE DISTRIBUCION INTE"
+ },
+ "LOW": {
+  "industria": "Home Improvement Retail",
+  "nombre": "Lowe's Companies, Inc."
+ },
+ "LR.PA": {
+  "industria": "Electrical Equipment & Parts",
+  "nombre": "LEGRAND"
+ },
+ "LRCX": {
+  "industria": "Semiconductor Equipment & Materials",
+  "nombre": "Lam Research Corporation"
+ },
+ "LSXMA": {
+  "industria": null,
+  "nombre": null
+ },
+ "LSXMK": {
+  "industria": null,
+  "nombre": null
+ },
+ "LTMC.MI": {
+  "industria": "Gambling",
+  "nombre": "LOTTOMATICA GROUP"
+ },
+ "LULU": {
+  "industria": "Apparel Retail",
+  "nombre": "lululemon athletica inc."
+ },
+ "LUMN": {
+  "industria": "Telecom Services",
+  "nombre": "Lumen Technologies, Inc."
+ },
+ "LUV": {
+  "industria": "Airlines",
+  "nombre": "Southwest Airlines Company"
+ },
+ "LUX.MI": {
+  "industria": null,
+  "nombre": null
+ },
+ "LVLT": {
+  "industria": null,
+  "nombre": null
+ },
+ "LVS": {
+  "industria": "Resorts & Casinos",
+  "nombre": "Las Vegas Sands Corp."
+ },
+ "LW": {
+  "industria": "Packaged Foods",
+  "nombre": "Lamb Weston Holdings, Inc."
+ },
+ "LXS.DE": {
+  "industria": "Specialty Chemicals",
+  "nombre": "LANXESS AG                    I"
+ },
+ "LYB": {
+  "industria": "Specialty Chemicals",
+  "nombre": "LyondellBasell Industries NV"
+ },
+ "LYV": {
+  "industria": "Entertainment",
+  "nombre": "Live Nation Entertainment, Inc."
+ },
+ "M": {
+  "industria": "Department Stores",
+  "nombre": "Macy's Inc"
+ },
+ "MA": {
+  "industria": "Credit Services",
+  "nombre": "Mastercard Incorporated"
+ },
+ "MAA": {
+  "industria": "REIT - Residential",
+  "nombre": "Mid-America Apartment Communiti"
+ },
+ "MAC": {
+  "industria": "REIT - Retail",
+  "nombre": "Macerich Company (The)"
+ },
+ "MAP.MC": {
+  "industria": "Insurance - Diversified",
+  "nombre": "MAPFRE, S.A."
+ },
+ "MAR": {
+  "industria": "Lodging",
+  "nombre": "Marriott International"
+ },
+ "MAS": {
+  "industria": "Building Products & Equipment",
+  "nombre": "Masco Corporation"
+ },
+ "MAS.MC": {
+  "industria": null,
+  "nombre": null
+ },
+ "MAT": {
+  "industria": "Leisure",
+  "nombre": "Mattel, Inc."
+ },
+ "MB.MI": {
+  "industria": "Banks - Regional",
+  "nombre": "MEDIOBANCA"
+ },
+ "MBG.DE": {
+  "industria": "Auto Manufacturers",
+  "nombre": "Mercedes-Benz Group AG        N"
+ },
+ "MC.PA": {
+  "industria": "Luxury Goods",
+  "nombre": "LVMH"
+ },
+ "MCD": {
+  "industria": "Restaurants",
+  "nombre": "McDonald's Corporation"
+ },
+ "MCHP": {
+  "industria": "Semiconductors",
+  "nombre": "Microchip Technology Incorporat"
+ },
+ "MCK": {
+  "industria": "Medical Distribution",
+  "nombre": "McKesson Corporation"
+ },
+ "MCO": {
+  "industria": "Financial Data & Stock Exchanges",
+  "nombre": "Moody's Corporation"
+ },
+ "MDB": {
+  "industria": "Software - Infrastructure",
+  "nombre": "MongoDB, Inc."
+ },
+ "MDLZ": {
+  "industria": "Confectioners",
+  "nombre": "Mondelez International, Inc."
+ },
+ "MDT": {
+  "industria": "Medical Devices",
+  "nombre": "Medtronic plc."
+ },
+ "MEL.MC": {
+  "industria": "Lodging",
+  "nombre": "MELIA HOTELS INTERNATIONAL, S.A"
+ },
+ "MELI": {
+  "industria": "Internet Retail",
+  "nombre": "MercadoLibre, Inc."
+ },
+ "MET": {
+  "industria": "Insurance - Life",
+  "nombre": "MetLife, Inc."
+ },
+ "META": {
+  "industria": "Internet Content & Information",
+  "nombre": "Meta Platforms, Inc."
+ },
+ "MGM": {
+  "industria": "Resorts & Casinos",
+  "nombre": "MGM Resorts International"
+ },
+ "MHK": {
+  "industria": "Furnishings, Fixtures & Appliances",
+  "nombre": "Mohawk Industries, Inc."
+ },
+ "MICC.AS": {
+  "industria": "Packaged Foods",
+  "nombre": "THE MAGNUM ICE CREAM COMPANY N."
+ },
+ "MJN": {
+  "industria": null,
+  "nombre": null
+ },
+ "MKC": {
+  "industria": "Packaged Foods",
+  "nombre": "McCormick & Company, Incorporat"
+ },
+ "MKTX": {
+  "industria": "Capital Markets",
+  "nombre": "MarketAxess Holdings, Inc."
+ },
+ "ML.PA": {
+  "industria": null,
+  "nombre": "MICHELIN"
+ },
+ "MLM": {
+  "industria": "Building Materials",
+  "nombre": "Martin Marietta Materials, Inc."
+ },
+ "MMM": {
+  "industria": "Conglomerates",
+  "nombre": "3M Company"
+ },
+ "MNK": {
+  "industria": null,
+  "nombre": null
+ },
+ "MNST": {
+  "industria": "Beverages - Non-Alcoholic",
+  "nombre": "Monster Beverage Corporation"
+ },
+ "MO": {
+  "industria": "Tobacco",
+  "nombre": "Altria Group, Inc."
+ },
+ "MOH": {
+  "industria": "Healthcare Plans",
+  "nombre": "Molina Healthcare Inc"
+ },
+ "MON": {
+  "industria": null,
+  "nombre": null
+ },
+ "MONC.MI": {
+  "industria": "Apparel Manufacturing",
+  "nombre": "MONCLER"
+ },
+ "MOS": {
+  "industria": "Agricultural Inputs",
+  "nombre": "Mosaic Company (The)"
+ },
+ "MPC": {
+  "industria": "Oil & Gas Refining & Marketing",
+  "nombre": "Marathon Petroleum Corporation"
+ },
+ "MPWR": {
+  "industria": "Semiconductors",
+  "nombre": "Monolithic Power Systems, Inc."
+ },
+ "MRK": {
+  "industria": "Drug Manufacturers - General",
+  "nombre": "Merck & Company, Inc."
+ },
+ "MRK.DE": {
+  "industria": "Drug Manufacturers - Specialty & Generic",
+  "nombre": "MERCK KGAA                    I"
+ },
+ "MRL.MC": {
+  "industria": "REIT - Office",
+  "nombre": "MERLIN PROPERTIES SOCIMI, S.A."
+ },
+ "MRNA": {
+  "industria": "Biotechnology",
+  "nombre": "Moderna, Inc."
+ },
+ "MRO": {
+  "industria": null,
+  "nombre": null
+ },
+ "MRSH": {
+  "industria": "Insurance Brokers",
+  "nombre": "Marsh"
+ },
+ "MRVL": {
+  "industria": "Semiconductors",
+  "nombre": "Marvell Technology, Inc."
+ },
+ "MS": {
+  "industria": "Capital Markets",
+  "nombre": "Morgan Stanley"
+ },
+ "MS.MI": {
+  "industria": "Packaged Foods",
+  "nombre": "MISITANO & STRACUZZI"
+ },
+ "MSCI": {
+  "industria": "Financial Data & Stock Exchanges",
+  "nombre": "MSCI Inc."
+ },
+ "MSFT": {
+  "industria": "Software - Infrastructure",
+  "nombre": "Microsoft Corporation"
+ },
+ "MSI": {
+  "industria": "Communication Equipment",
+  "nombre": "Motorola Solutions, Inc."
+ },
+ "MSTR": {
+  "industria": "Software - Application",
+  "nombre": "Strategy Inc"
+ },
+ "MT.AS": {
+  "industria": "Steel",
+  "nombre": "ARCELORMITTAL SA"
+ },
+ "MTB": {
+  "industria": "Banks - Regional",
+  "nombre": "M&T Bank Corporation"
+ },
+ "MTCH": {
+  "industria": "Internet Content & Information",
+  "nombre": "Match Group, Inc."
+ },
+ "MTD": {
+  "industria": "Diagnostics & Research",
+  "nombre": "Mettler-Toledo International, I"
+ },
+ "MTS.MC": {
+  "industria": "Steel",
+  "nombre": "ARCELORMITTAL SA"
+ },
+ "MTX.DE": {
+  "industria": "Aerospace & Defense",
+  "nombre": "MTU Aero Engines AG           N"
+ },
+ "MU": {
+  "industria": "Semiconductors",
+  "nombre": "Micron Technology, Inc."
+ },
+ "MUR": {
+  "industria": "Oil & Gas E&P",
+  "nombre": "Murphy Oil Corporation"
+ },
+ "MUV2.DE": {
+  "industria": "Insurance - Reinsurance",
+  "nombre": "MUENCHENER RUECKVERS.-GES. AG N"
+ },
+ "MWV": {
+  "industria": null,
+  "nombre": null
+ },
+ "MXIM": {
+  "industria": null,
+  "nombre": null
+ },
+ "NAVI": {
+  "industria": "Credit Services",
+  "nombre": "Navient Holdings, Inc."
+ },
+ "NBIS": {
+  "industria": "Internet Content & Information",
+  "nombre": "Nebius Group N.V."
+ },
+ "NBL": {
+  "industria": null,
+  "nombre": null
+ },
+ "NBR": {
+  "industria": "Oil & Gas Drilling",
+  "nombre": "Nabors Industries Ltd."
+ },
+ "NCLH": {
+  "industria": "Travel Services",
+  "nombre": "Norwegian Cruise Line Holdings "
+ },
+ "NDA-FI.HE": {
+  "industria": "Banks - Regional",
+  "nombre": "Nordea Bank Abp"
+ },
+ "NDAQ": {
+  "industria": "Financial Data & Stock Exchanges",
+  "nombre": "Nasdaq, Inc."
+ },
+ "NDSN": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "Nordson Corporation"
+ },
+ "NE": {
+  "industria": "Oil & Gas Drilling",
+  "nombre": "Noble Corporation plc A"
+ },
+ "NEE": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "NextEra Energy, Inc."
+ },
+ "NEM": {
+  "industria": "Gold",
+  "nombre": "Newmont Corporation"
+ },
+ "NEXI.MI": {
+  "industria": "Software - Infrastructure",
+  "nombre": "NEXI"
+ },
+ "NFLX": {
+  "industria": "Entertainment",
+  "nombre": "Netflix, Inc."
+ },
+ "NFX": {
+  "industria": null,
+  "nombre": "Corgi NFLX 2x Daily ETF"
+ },
+ "NI": {
+  "industria": "Utilities - Regulated Gas",
+  "nombre": "NiSource Inc"
+ },
+ "NKE": {
+  "industria": "Footwear & Accessories",
+  "nombre": "Nike, Inc."
+ },
+ "NKTR": {
+  "industria": "Biotechnology",
+  "nombre": "Nektar Therapeutics"
+ },
+ "NLSN": {
+  "industria": null,
+  "nombre": null
+ },
+ "NN.AS": {
+  "industria": "Insurance - Diversified",
+  "nombre": "NN GROUP"
+ },
+ "NOC": {
+  "industria": "Aerospace & Defense",
+  "nombre": "Northrop Grumman Corporation"
+ },
+ "NOKIA.HE": {
+  "industria": "Communication Equipment",
+  "nombre": "Nokia Corporation"
+ },
+ "NOV": {
+  "industria": "Oil & Gas Equipment & Services",
+  "nombre": "NOV Inc."
+ },
+ "NOW": {
+  "industria": "Software - Application",
+  "nombre": "ServiceNow, Inc."
+ },
+ "NRG": {
+  "industria": "Utilities - Independent Power Producers",
+  "nombre": "NRG Energy, Inc."
+ },
+ "NSC": {
+  "industria": "Railroads",
+  "nombre": "Norfolk Southern Corporation"
+ },
+ "NTAP": {
+  "industria": "Software - Infrastructure",
+  "nombre": "NetApp, Inc."
+ },
+ "NTES": {
+  "industria": "Electronic Gaming & Multimedia",
+  "nombre": "NetEase, Inc."
+ },
+ "NTGY.MC": {
+  "industria": "Utilities - Regulated Gas",
+  "nombre": "NATURGY ENERGY GROUP, S.A."
+ },
+ "NTRS": {
+  "industria": "Asset Management",
+  "nombre": "Northern Trust Corporation"
+ },
+ "NUE": {
+  "industria": "Steel",
+  "nombre": "Nucor Corporation"
+ },
+ "NVDA": {
+  "industria": "Semiconductors",
+  "nombre": "NVIDIA Corporation"
+ },
+ "NVR": {
+  "industria": "Residential Construction",
+  "nombre": "NVR, Inc."
+ },
+ "NWL": {
+  "industria": "Household & Personal Products",
+  "nombre": "Newell Brands Inc."
+ },
+ "NWS": {
+  "industria": "Entertainment",
+  "nombre": "News Corporation"
+ },
+ "NWSA": {
+  "industria": "Entertainment",
+  "nombre": "News Corporation"
+ },
+ "NXPI": {
+  "industria": "Semiconductors",
+  "nombre": "NXP Semiconductors N.V."
+ },
+ "O": {
+  "industria": "REIT - Retail",
+  "nombre": "Realty Income Corporation"
+ },
+ "OCI.AS": {
+  "industria": "Agricultural Inputs",
+  "nombre": "OCI N.V."
+ },
+ "ODFL": {
+  "industria": "Trucking",
+  "nombre": "Old Dominion Freight Line, Inc."
+ },
+ "OGN": {
+  "industria": "Drug Manufacturers - General",
+  "nombre": "Organon & Co."
+ },
+ "OHLA.MC": {
+  "industria": "Engineering & Construction",
+  "nombre": "OBRASCON HUARTE LAIN, S.A."
+ },
+ "OI": {
+  "industria": "Packaging & Containers",
+  "nombre": "O-I Glass, Inc."
+ },
+ "OKE": {
+  "industria": "Oil & Gas Midstream",
+  "nombre": "ONEOK, Inc."
+ },
+ "OKTA": {
+  "industria": "Software - Infrastructure",
+  "nombre": "Okta, Inc."
+ },
+ "OMC": {
+  "industria": "Advertising Agencies",
+  "nombre": "Omnicom Group Inc."
+ },
+ "ON": {
+  "industria": "Semiconductors",
+  "nombre": "ON Semiconductor Corporation"
+ },
+ "OR.PA": {
+  "industria": "Household & Personal Products",
+  "nombre": "L'OREAL"
+ },
+ "ORA.PA": {
+  "industria": "Telecom Services",
+  "nombre": "ORANGE"
+ },
+ "ORCL": {
+  "industria": "Software - Infrastructure",
+  "nombre": "Oracle Corporation"
+ },
+ "ORLY": {
+  "industria": "Auto Parts",
+  "nombre": "O'Reilly Automotive, Inc."
+ },
+ "OTIS": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "Otis Worldwide Corporation"
+ },
+ "OXY": {
+  "industria": "Oil & Gas E&P",
+  "nombre": "Occidental Petroleum Corporatio"
+ },
+ "P": {
+  "industria": "Computer Hardware",
+  "nombre": "Everpure, Inc."
+ },
+ "P911.DE": {
+  "industria": "Auto Manufacturers",
+  "nombre": "Dr. Ing. h.c. F. Porsche AG   I"
+ },
+ "PAH3.DE": {
+  "industria": "Auto Manufacturers",
+  "nombre": "Porsche Automobil Holding SE  I"
+ },
+ "PANW": {
+  "industria": "Software - Infrastructure",
+  "nombre": "Palo Alto Networks, Inc."
+ },
+ "PAYC": {
+  "industria": "Software - Application",
+  "nombre": "Paycom Software, Inc."
+ },
+ "PAYX": {
+  "industria": "Software - Application",
+  "nombre": "Paychex, Inc."
+ },
+ "PBCT": {
+  "industria": null,
+  "nombre": null
+ },
+ "PBI": {
+  "industria": "Integrated Freight & Logistics",
+  "nombre": "Pitney Bowes Inc."
+ },
+ "PCAR": {
+  "industria": "Farm & Heavy Construction Machinery",
+  "nombre": "PACCAR Inc."
+ },
+ "PCG": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "Pacific Gas & Electric Co."
+ },
+ "PCL": {
+  "industria": null,
+  "nombre": "PGIM Corporate Bond 10+ Year ET"
+ },
+ "PCP": {
+  "industria": null,
+  "nombre": null
+ },
+ "PDCO": {
+  "industria": null,
+  "nombre": null
+ },
+ "PDD": {
+  "industria": "Internet Retail",
+  "nombre": "PDD Holdings Inc."
+ },
+ "PEG": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "Public Service Enterprise Group"
+ },
+ "PENN": {
+  "industria": "Resorts & Casinos",
+  "nombre": "PENN Entertainment, Inc."
+ },
+ "PEP": {
+  "industria": "Beverages - Non-Alcoholic",
+  "nombre": "Pepsico, Inc."
+ },
+ "PETM": {
+  "industria": null,
+  "nombre": null
+ },
+ "PFE": {
+  "industria": "Drug Manufacturers - General",
+  "nombre": "Pfizer, Inc."
+ },
+ "PFG": {
+  "industria": "Asset Management",
+  "nombre": "Principal Financial Group Inc"
+ },
+ "PG": {
+  "industria": "Household & Personal Products",
+  "nombre": "Procter & Gamble Company (The)"
+ },
+ "PGR": {
+  "industria": "Insurance - Property & Casualty",
+  "nombre": "Progressive Corporation (The)"
+ },
+ "PH": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "Parker-Hannifin Corporation"
+ },
+ "PHIA.AS": {
+  "industria": "Medical Devices",
+  "nombre": "KON.PHILIPS N.V."
+ },
+ "PHM": {
+  "industria": "Residential Construction",
+  "nombre": "PulteGroup, Inc."
+ },
+ "PHM.MC": {
+  "industria": "Biotechnology",
+  "nombre": "PHARMA MAR, S.A."
+ },
+ "PIRC.MI": {
+  "industria": "Auto Parts",
+  "nombre": "PIRELLI & C"
+ },
+ "PKG": {
+  "industria": "Packaging & Containers",
+  "nombre": "Packaging Corporation of Americ"
+ },
+ "PLD": {
+  "industria": "REIT - Industrial",
+  "nombre": "Prologis, Inc."
+ },
+ "PLL": {
+  "industria": null,
+  "nombre": null
+ },
+ "PLTR": {
+  "industria": "Software - Infrastructure",
+  "nombre": "Palantir Technologies Inc."
+ },
+ "PM": {
+  "industria": "Tobacco",
+  "nombre": "Philip Morris International Inc"
+ },
+ "PMI.MI": {
+  "industria": null,
+  "nombre": null
+ },
+ "PNC": {
+  "industria": "Banks - Regional",
+  "nombre": "PNC Financial Services Group, I"
+ },
+ "PNR": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "Pentair plc."
+ },
+ "PNW": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "Pinnacle West Capital Corporati"
+ },
+ "PODD": {
+  "industria": "Medical Devices",
+  "nombre": "Insulet Corporation"
+ },
+ "POM": {
+  "industria": "Pharmaceutical Retailers",
+  "nombre": "POMDOCTOR LIMITED"
+ },
+ "POOL": {
+  "industria": "Industrial Distribution",
+  "nombre": "Pool Corporation"
+ },
+ "POP.MC": {
+  "industria": null,
+  "nombre": null
+ },
+ "PPG": {
+  "industria": "Specialty Chemicals",
+  "nombre": "PPG Industries, Inc."
+ },
+ "PPL": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "PPL Corporation"
+ },
+ "PRGO": {
+  "industria": "Drug Manufacturers - Specialty & Generic",
+  "nombre": "Perrigo Company plc"
+ },
+ "PRU": {
+  "industria": "Insurance - Life",
+  "nombre": "Prudential Financial, Inc."
+ },
+ "PRX.AS": {
+  "industria": "Internet Retail",
+  "nombre": "PROSUS"
+ },
+ "PRY.MI": {
+  "industria": "Electrical Equipment & Parts",
+  "nombre": "PRYSMIAN"
+ },
+ "PSA": {
+  "industria": "REIT - Industrial",
+  "nombre": "Public Storage"
+ },
+ "PSKY": {
+  "industria": "Entertainment",
+  "nombre": "Paramount Skydance Corporation"
+ },
+ "PSM.DE": {
+  "industria": "Broadcasting",
+  "nombre": "ProSiebenSat.1 Media SE       N"
+ },
+ "PST.MI": {
+  "industria": "Integrated Freight & Logistics",
+  "nombre": "POSTE ITALIANE"
+ },
+ "PSX": {
+  "industria": "Oil & Gas Refining & Marketing",
+  "nombre": "Phillips 66"
+ },
+ "PTC": {
+  "industria": "Software - Application",
+  "nombre": "PTC Inc."
+ },
+ "PTON": {
+  "industria": "Leisure",
+  "nombre": "Peloton Interactive, Inc."
+ },
+ "PUB.PA": {
+  "industria": "Advertising Agencies",
+  "nombre": "PUBLICIS GROUPE SA"
+ },
+ "PUIG.MC": {
+  "industria": "Household & Personal Products",
+  "nombre": "PUIG BRANDS, S.A. CLASE B"
+ },
+ "PUM.DE": {
+  "industria": "Footwear & Accessories",
+  "nombre": "PUMA SE                       I"
+ },
+ "PVH": {
+  "industria": "Apparel Manufacturing",
+  "nombre": "PVH Corp."
+ },
+ "PWR": {
+  "industria": "Engineering & Construction",
+  "nombre": "Quanta Services, Inc."
+ },
+ "PXD": {
+  "industria": null,
+  "nombre": null
+ },
+ "PYPL": {
+  "industria": "Credit Services",
+  "nombre": "PayPal Holdings, Inc."
+ },
+ "Q": {
+  "industria": "Semiconductor Equipment & Materials",
+  "nombre": "Qnity Electronics, Inc."
+ },
+ "QCOM": {
+  "industria": "Semiconductors",
+  "nombre": "QUALCOMM Incorporated"
+ },
+ "QEP": {
+  "industria": null,
+  "nombre": null
+ },
+ "QIA.DE": {
+  "industria": "Diagnostics & Research",
+  "nombre": "Qiagen N.V.                   A"
+ },
+ "QRTEA": {
+  "industria": null,
+  "nombre": null
+ },
+ "QRVO": {
+  "industria": "Semiconductors",
+  "nombre": "Qorvo, Inc."
+ },
+ "R": {
+  "industria": "Rental & Leasing Services",
+  "nombre": "Ryder System, Inc."
+ },
+ "RACE.MI": {
+  "industria": "Auto Manufacturers",
+  "nombre": "FERRARI"
+ },
+ "RAI": {
+  "industria": null,
+  "nombre": null
+ },
+ "RAND.AS": {
+  "industria": "Staffing & Employment Services",
+  "nombre": "Randstad N.V."
+ },
+ "RCL": {
+  "industria": "Travel Services",
+  "nombre": "Royal Caribbean Cruises Ltd."
+ },
+ "RDDT": {
+  "industria": "Internet Content & Information",
+  "nombre": "Reddit, Inc."
+ },
+ "REC.MI": {
+  "industria": "Drug Manufacturers - General",
+  "nombre": "RECORDATI ORD"
+ },
+ "RED.MC": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "REDEIA CORPORACION, S.A."
+ },
+ "REG": {
+  "industria": "REIT - Retail",
+  "nombre": "Regency Centers Corporation"
+ },
+ "REGN": {
+  "industria": "Biotechnology",
+  "nombre": "Regeneron Pharmaceuticals, Inc."
+ },
+ "REN.AS": {
+  "industria": "Specialty Business Services",
+  "nombre": "RELX"
+ },
+ "REP.MC": {
+  "industria": "Oil & Gas Integrated",
+  "nombre": "REPSOL,  S.A."
+ },
+ "RF": {
+  "industria": "Banks - Regional",
+  "nombre": "Regions Financial Corporation"
+ },
+ "RHI": {
+  "industria": "Staffing & Employment Services",
+  "nombre": "Robert Half Inc."
+ },
+ "RHM.DE": {
+  "industria": "Aerospace & Defense",
+  "nombre": "RHEINMETALL AG                I"
+ },
+ "RHT": {
+  "industria": null,
+  "nombre": null
+ },
+ "RI.PA": {
+  "industria": "Beverages - Wineries & Distilleries",
+  "nombre": "PERNOD RICARD"
+ },
+ "RIG": {
+  "industria": "Oil & Gas Drilling",
+  "nombre": "Transocean Ltd (Switzerland)"
+ },
+ "RIVN": {
+  "industria": "Auto Manufacturers",
+  "nombre": "Rivian Automotive, Inc."
+ },
+ "RJF": {
+  "industria": "Asset Management",
+  "nombre": "Raymond James Financial, Inc."
+ },
+ "RKLB": {
+  "industria": "Aerospace & Defense",
+  "nombre": "Rocket Lab Corporation"
+ },
+ "RL": {
+  "industria": "Apparel Manufacturing",
+  "nombre": "Ralph Lauren Corporation"
+ },
+ "RMD": {
+  "industria": "Medical Instruments & Supplies",
+  "nombre": "ResMed Inc."
+ },
+ "RMS.PA": {
+  "industria": "Luxury Goods",
+  "nombre": "HERMES INTL"
+ },
+ "RNO.PA": {
+  "industria": "Auto Manufacturers",
+  "nombre": "RENAULT"
+ },
+ "ROK": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "Rockwell Automation, Inc."
+ },
+ "ROL": {
+  "industria": "Personal Services",
+  "nombre": "Rollins, Inc."
+ },
+ "ROP": {
+  "industria": "Software - Application",
+  "nombre": "Roper Technologies, Inc."
+ },
+ "ROST": {
+  "industria": "Apparel Retail",
+  "nombre": "Ross Stores, Inc."
+ },
+ "ROVI.MC": {
+  "industria": "Drug Manufacturers - Specialty & Generic",
+  "nombre": "LABORATORIOS FARMACEUTICOS ROVI"
+ },
+ "RRC": {
+  "industria": "Oil & Gas E&P",
+  "nombre": "Range Resources Corporation"
+ },
+ "RSG": {
+  "industria": "Waste Management",
+  "nombre": "Republic Services, Inc."
+ },
+ "RTN": {
+  "industria": null,
+  "nombre": null
+ },
+ "RTX": {
+  "industria": "Aerospace & Defense",
+  "nombre": "RTX Corporation"
+ },
+ "RVTY": {
+  "industria": "Diagnostics & Research",
+  "nombre": "Revvity, Inc."
+ },
+ "RWE.DE": {
+  "industria": "Utilities - Diversified",
+  "nombre": "RWE AG                        I"
+ },
+ "SAB.MC": {
+  "industria": "Banks - Diversified",
+  "nombre": "BANCO DE SABADELL"
+ },
+ "SAF.PA": {
+  "industria": "Aerospace & Defense",
+  "nombre": "SAFRAN"
+ },
+ "SAN.MC": {
+  "industria": "Banks - Diversified",
+  "nombre": "BANCO SANTANDER S.A."
+ },
+ "SAN.PA": {
+  "industria": "Drug Manufacturers - General",
+  "nombre": "SANOFI"
+ },
+ "SAP.DE": {
+  "industria": "Software - Application",
+  "nombre": "SAP SE                        I"
+ },
+ "SBAC": {
+  "industria": "REIT - Specialty",
+  "nombre": "SBA Communications Corporation"
+ },
+ "SBMO.AS": {
+  "industria": "Oil & Gas Equipment & Services",
+  "nombre": "SBM OFFSHORE"
+ },
+ "SBNY": {
+  "industria": "Banks - Regional",
+  "nombre": "Signature Bank (New York, NY)"
+ },
+ "SBUX": {
+  "industria": "Restaurants",
+  "nombre": "Starbucks Corporation"
+ },
+ "SCG": {
+  "industria": null,
+  "nombre": null
+ },
+ "SCHW": {
+  "industria": "Capital Markets",
+  "nombre": "Charles Schwab Corporation (The"
+ },
+ "SCYR.MC": {
+  "industria": "Engineering & Construction",
+  "nombre": "SACYR, S.A."
+ },
+ "SDF.DE": {
+  "industria": "Agricultural Inputs",
+  "nombre": "K+S Aktiengesellschaft        N"
+ },
+ "SE": {
+  "industria": "Internet Retail",
+  "nombre": "Sea Limited"
+ },
+ "SEDG": {
+  "industria": "Solar",
+  "nombre": "SolarEdge Technologies, Inc."
+ },
+ "SEE": {
+  "industria": null,
+  "nombre": null
+ },
+ "SFER.MI": {
+  "industria": "Luxury Goods",
+  "nombre": "SALVATORE FERRAGAMO"
+ },
+ "SGEN": {
+  "industria": null,
+  "nombre": null
+ },
+ "SGO.PA": {
+  "industria": "Building Products & Equipment",
+  "nombre": "SAINT GOBAIN"
+ },
+ "SGRE.MC": {
+  "industria": null,
+  "nombre": null
+ },
+ "SHELL.AS": {
+  "industria": "Oil & Gas Integrated",
+  "nombre": "SHELL PLC"
+ },
+ "SHL.DE": {
+  "industria": "Medical Devices",
+  "nombre": "Siemens Healthineers AG       N"
+ },
+ "SHOP": {
+  "industria": "Software - Application",
+  "nombre": "Shopify Inc."
+ },
+ "SHPG": {
+  "industria": null,
+  "nombre": null
+ },
+ "SHW": {
+  "industria": "Specialty Chemicals",
+  "nombre": "Sherwin-Williams Company (The)"
+ },
+ "SIAL": {
+  "industria": null,
+  "nombre": null
+ },
+ "SIE.DE": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "SIEMENS AG                    N"
+ },
+ "SIG": {
+  "industria": "Luxury Goods",
+  "nombre": "Signet Jewelers Limited"
+ },
+ "SIRI": {
+  "industria": "Entertainment",
+  "nombre": "SiriusXM Holdings Inc."
+ },
+ "SIVB": {
+  "industria": null,
+  "nombre": null
+ },
+ "SJM": {
+  "industria": "Packaged Foods",
+  "nombre": "The J.M. Smucker Company"
+ },
+ "SLB": {
+  "industria": "Oil & Gas Equipment & Services",
+  "nombre": "SLB Limited"
+ },
+ "SLG": {
+  "industria": "REIT - Office",
+  "nombre": "SL Green Realty Corp"
+ },
+ "SLR.MC": {
+  "industria": "Utilities - Renewable",
+  "nombre": "SOLARIA ENERGIA Y MEDIO AMBIENT"
+ },
+ "SMCI": {
+  "industria": "Computer Hardware",
+  "nombre": "Super Micro Computer, Inc."
+ },
+ "SNA": {
+  "industria": "Tools & Accessories",
+  "nombre": "Snap-On Incorporated"
+ },
+ "SNDK": {
+  "industria": "Computer Hardware",
+  "nombre": "Sandisk Corporation"
+ },
+ "SNI": {
+  "industria": null,
+  "nombre": null
+ },
+ "SNPS": {
+  "industria": "Software - Infrastructure",
+  "nombre": "Synopsys, Inc."
+ },
+ "SO": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "Southern Company (The)"
+ },
+ "SOLB.BR": {
+  "industria": "Chemicals",
+  "nombre": "SOLVAY"
+ },
+ "SOLS": {
+  "industria": "Specialty Chemicals",
+  "nombre": "Solstice Advanced Materials Inc"
+ },
+ "SOLV": {
+  "industria": "Medical Instruments & Supplies",
+  "nombre": "Solventum Corporation"
+ },
+ "SPCX": {
+  "industria": "Aerospace & Defense",
+  "nombre": "Space Exploration Technologies "
+ },
+ "SPG": {
+  "industria": "REIT - Retail",
+  "nombre": "Simon Property Group, Inc."
+ },
+ "SPGI": {
+  "industria": "Financial Data & Stock Exchanges",
+  "nombre": "S&P Global Inc."
+ },
+ "SPLK": {
+  "industria": null,
+  "nombre": null
+ },
+ "SPLS": {
+  "industria": null,
+  "nombre": "PIMCO US Stocks PLUS Active Bon"
+ },
+ "SPM.MI": {
+  "industria": "Oil & Gas Equipment & Services",
+  "nombre": "SAIPEM"
+ },
+ "SRCL": {
+  "industria": null,
+  "nombre": null
+ },
+ "SRE": {
+  "industria": "Utilities - Diversified",
+  "nombre": "DBA Sempra"
+ },
+ "SRG.MI": {
+  "industria": "Utilities - Regulated Gas",
+  "nombre": "SNAM"
+ },
+ "SRT3.DE": {
+  "industria": "Medical Instruments & Supplies",
+  "nombre": "SARTORIUS AG                  V"
+ },
+ "STE": {
+  "industria": "Medical Devices",
+  "nombre": "STERIS plc (Ireland)"
+ },
+ "STJ": {
+  "industria": null,
+  "nombre": null
+ },
+ "STLAM.MI": {
+  "industria": "Auto Manufacturers",
+  "nombre": "STELLANTIS"
+ },
+ "STLAP.PA": {
+  "industria": "Auto Manufacturers",
+  "nombre": "STELLANTIS NV"
+ },
+ "STLD": {
+  "industria": "Steel",
+  "nombre": "Steel Dynamics, Inc."
+ },
+ "STMPA.PA": {
+  "industria": "Semiconductors",
+  "nombre": "STMICROELECTRONICS"
+ },
+ "STT": {
+  "industria": "Asset Management",
+  "nombre": "State Street Corporation"
+ },
+ "STX": {
+  "industria": "Computer Hardware",
+  "nombre": "Seagate Technology Holdings PLC"
+ },
+ "STZ": {
+  "industria": "Beverages - Brewers",
+  "nombre": "Constellation Brands, Inc."
+ },
+ "SU.PA": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "SCHNEIDER ELECTRIC SE"
+ },
+ "SW": {
+  "industria": "Packaging & Containers",
+  "nombre": "Smurfit WestRock plc"
+ },
+ "SW.PA": {
+  "industria": "Specialty Business Services",
+  "nombre": "SODEXO"
+ },
+ "SWK": {
+  "industria": "Tools & Accessories",
+  "nombre": "Stanley Black & Decker, Inc."
+ },
+ "SWKS": {
+  "industria": "Semiconductors",
+  "nombre": "Skyworks Solutions, Inc."
+ },
+ "SWN": {
+  "industria": null,
+  "nombre": null
+ },
+ "SWY": {
+  "industria": null,
+  "nombre": null
+ },
+ "SY1.DE": {
+  "industria": "Specialty Chemicals",
+  "nombre": "Symrise AG                    I"
+ },
+ "SYF": {
+  "industria": "Credit Services",
+  "nombre": "Synchrony Financial"
+ },
+ "SYK": {
+  "industria": "Medical Devices",
+  "nombre": "Stryker Corporation"
+ },
+ "SYY": {
+  "industria": "Food Distribution",
+  "nombre": "Sysco Corporation"
+ },
+ "T": {
+  "industria": "Telecom Services",
+  "nombre": "AT&T Inc."
+ },
+ "TAP": {
+  "industria": "Beverages - Brewers",
+  "nombre": "Molson Coors Beverage Company"
+ },
+ "TCOM": {
+  "industria": "Travel Services",
+  "nombre": "Trip.com Group Limited"
+ },
+ "TDC": {
+  "industria": "Software - Infrastructure",
+  "nombre": "Teradata Corporation"
+ },
+ "TDG": {
+  "industria": "Aerospace & Defense",
+  "nombre": "Transdigm Group Incorporated"
+ },
+ "TDY": {
+  "industria": "Scientific & Technical Instruments",
+  "nombre": "Teledyne Technologies Incorpora"
+ },
+ "TE": {
+  "industria": "Electrical Equipment & Parts",
+  "nombre": "T1 Energy Inc."
+ },
+ "TEAM": {
+  "industria": "Software - Application",
+  "nombre": "Atlassian Corporation"
+ },
+ "TECH": {
+  "industria": "Biotechnology",
+  "nombre": "Bio-Techne Corp"
+ },
+ "TEF.MC": {
+  "industria": "Telecom Services",
+  "nombre": "TELEFONICA,S.A."
+ },
+ "TEG": {
+  "industria": null,
+  "nombre": null
+ },
+ "TEL": {
+  "industria": "Electronic Components",
+  "nombre": "TE Connectivity plc"
+ },
+ "TEN.MI": {
+  "industria": "Oil & Gas Equipment & Services",
+  "nombre": "TENARIS"
+ },
+ "TEP.PA": {
+  "industria": "Specialty Business Services",
+  "nombre": "TELEPERFORMANCE"
+ },
+ "TER": {
+  "industria": "Semiconductor Equipment & Materials",
+  "nombre": "Teradyne, Inc."
+ },
+ "TFC": {
+  "industria": "Banks - Regional",
+  "nombre": "Truist Financial Corporation"
+ },
+ "TFX": {
+  "industria": "Medical Instruments & Supplies",
+  "nombre": "Teleflex Incorporated"
+ },
+ "TGNA": {
+  "industria": null,
+  "nombre": null
+ },
+ "TGT": {
+  "industria": "Discount Stores",
+  "nombre": "Target Corporation"
+ },
+ "THC": {
+  "industria": "Medical Care Facilities",
+  "nombre": "Tenet Healthcare Corporation"
+ },
+ "TIF": {
+  "industria": null,
+  "nombre": null
+ },
+ "TIT.MI": {
+  "industria": "Telecom Services",
+  "nombre": "TELECOM ITALIA"
+ },
+ "TJX": {
+  "industria": "Apparel Retail",
+  "nombre": "TJX Companies, Inc. (The)"
+ },
+ "TKA.DE": {
+  "industria": "Conglomerates",
+  "nombre": "thyssenkrupp AG               I"
+ },
+ "TKO": {
+  "industria": "Entertainment",
+  "nombre": "TKO Group Holdings, Inc."
+ },
+ "TKWY.AS": {
+  "industria": null,
+  "nombre": null
+ },
+ "TL5.MC": {
+  "industria": null,
+  "nombre": null
+ },
+ "TMO": {
+  "industria": "Diagnostics & Research",
+  "nombre": "Thermo Fisher Scientific Inc"
+ },
+ "TMUS": {
+  "industria": "Telecom Services",
+  "nombre": "T-Mobile US, Inc."
+ },
+ "TNTE.AS": {
+  "industria": null,
+  "nombre": null
+ },
+ "TPL": {
+  "industria": "Oil & Gas E&P",
+  "nombre": "Texas Pacific Land Corporation"
+ },
+ "TPR": {
+  "industria": "Luxury Goods",
+  "nombre": "Tapestry, Inc."
+ },
+ "TPRO.MI": {
+  "industria": "Semiconductors",
+  "nombre": "TECHNOPROBE"
+ },
+ "TRE.MC": {
+  "industria": "Engineering & Construction",
+  "nombre": "TECNICAS REUNIDAS S.A."
+ },
+ "TRGP": {
+  "industria": "Oil & Gas Midstream",
+  "nombre": "Targa Resources, Inc."
+ },
+ "TRI": {
+  "industria": "Specialty Business Services",
+  "nombre": "Thomson Reuters Corp"
+ },
+ "TRIP": {
+  "industria": "Travel Services",
+  "nombre": "TripAdvisor, Inc."
+ },
+ "TRMB": {
+  "industria": "Scientific & Technical Instruments",
+  "nombre": "Trimble Inc."
+ },
+ "TRN.MI": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "TERNA"
+ },
+ "TROW": {
+  "industria": "Asset Management",
+  "nombre": "T. Rowe Price Group, Inc."
+ },
+ "TRV": {
+  "industria": "Insurance - Property & Casualty",
+  "nombre": "The Travelers Companies, Inc."
+ },
+ "TSCO": {
+  "industria": "Specialty Retail",
+  "nombre": "Tractor Supply Company"
+ },
+ "TSLA": {
+  "industria": "Auto Manufacturers",
+  "nombre": "Tesla, Inc."
+ },
+ "TSN": {
+  "industria": "Farm Products",
+  "nombre": "Tyson Foods, Inc."
+ },
+ "TSS": {
+  "industria": null,
+  "nombre": null
+ },
+ "TT": {
+  "industria": "Building Products & Equipment",
+  "nombre": "Trane Technologies plc"
+ },
+ "TTD": {
+  "industria": "Advertising Agencies",
+  "nombre": "The Trade Desk, Inc."
+ },
+ "TTE.PA": {
+  "industria": "Oil & Gas Integrated",
+  "nombre": "TOTALENERGIES"
+ },
+ "TTWO": {
+  "industria": "Electronic Gaming & Multimedia",
+  "nombre": "Take-Two Interactive Software, "
+ },
+ "TWC": {
+  "industria": null,
+  "nombre": null
+ },
+ "TWLO": {
+  "industria": "Software - Infrastructure",
+  "nombre": "Twilio Inc."
+ },
+ "TWTR": {
+  "industria": null,
+  "nombre": null
+ },
+ "TWX": {
+  "industria": null,
+  "nombre": null
+ },
+ "TXN": {
+  "industria": "Semiconductors",
+  "nombre": "Texas Instruments Incorporated"
+ },
+ "TXT": {
+  "industria": "Aerospace & Defense",
+  "nombre": "Textron Inc."
+ },
+ "TYL": {
+  "industria": "Software - Application",
+  "nombre": "Tyler Technologies, Inc."
+ },
+ "UA": {
+  "industria": "Apparel Manufacturing",
+  "nombre": "Under Armour, Inc."
+ },
+ "UAA": {
+  "industria": "Apparel Manufacturing",
+  "nombre": "Under Armour, Inc."
+ },
+ "UAL": {
+  "industria": "Airlines",
+  "nombre": "United Airlines Holdings, Inc."
+ },
+ "UBER": {
+  "industria": "Software - Application",
+  "nombre": "Uber Technologies, Inc."
+ },
+ "UBI.MI": {
+  "industria": null,
+  "nombre": null
+ },
+ "UCG.MI": {
+  "industria": "Banks - Regional",
+  "nombre": "UNICREDIT"
+ },
+ "UDR": {
+  "industria": "REIT - Residential",
+  "nombre": "UDR, Inc."
+ },
+ "UHS": {
+  "industria": "Medical Care Facilities",
+  "nombre": "Universal Health Services, Inc."
+ },
+ "ULTA": {
+  "industria": "Specialty Retail",
+  "nombre": "Ulta Beauty, Inc."
+ },
+ "UMG.AS": {
+  "industria": "Entertainment",
+  "nombre": "UNIVERSAL MUSIC GROUP"
+ },
+ "UNA.AS": {
+  "industria": "Household & Personal Products",
+  "nombre": "UNILEVER PLC"
+ },
+ "UNH": {
+  "industria": "Healthcare Plans",
+  "nombre": "UnitedHealth Group Incorporated"
+ },
+ "UNI.MC": {
+  "industria": "Banks - Regional",
+  "nombre": "UNICAJA BANCO, S.A."
+ },
+ "UNI.MI": {
+  "industria": "Insurance - Property & Casualty",
+  "nombre": "UNIPOL"
+ },
+ "UNM": {
+  "industria": "Insurance - Life",
+  "nombre": "Unum Group"
+ },
+ "UNP": {
+  "industria": "Railroads",
+  "nombre": "Union Pacific Corporation"
+ },
+ "UPS": {
+  "industria": "Integrated Freight & Logistics",
+  "nombre": "United Parcel Service, Inc."
+ },
+ "URBN": {
+  "industria": "Apparel Retail",
+  "nombre": "Urban Outfitters, Inc."
+ },
+ "URI": {
+  "industria": "Rental & Leasing Services",
+  "nombre": "United Rentals, Inc."
+ },
+ "URW.PA": {
+  "industria": "REIT - Retail",
+  "nombre": "UNIBAIL-RODAMCO-WESTFIELD"
+ },
+ "US.MI": {
+  "industria": null,
+  "nombre": null
+ },
+ "USB": {
+  "industria": "Banks - Regional",
+  "nombre": "U.S. Bancorp"
+ },
+ "V": {
+  "industria": "Credit Services",
+  "nombre": "Visa Inc."
+ },
+ "VAR": {
+  "industria": null,
+  "nombre": null
+ },
+ "VEEV": {
+  "industria": "Health Information Services",
+  "nombre": "Veeva Systems Inc."
+ },
+ "VFC": {
+  "industria": "Apparel Manufacturing",
+  "nombre": "V.F. Corporation"
+ },
+ "VICI": {
+  "industria": "REIT - Diversified",
+  "nombre": "VICI Properties Inc."
+ },
+ "VIE.PA": {
+  "industria": "Waste Management",
+  "nombre": "VEOLIA ENVIRON."
+ },
+ "VIP": {
+  "industria": "Capital Markets",
+  "nombre": "Vulcan Infrastructure and Power"
+ },
+ "VIS.MC": {
+  "industria": "Packaging & Containers",
+  "nombre": "VISCOFAN, S.A."
+ },
+ "VIV.PA": {
+  "industria": "Electronic Gaming & Multimedia",
+  "nombre": "VIVENDI SE"
+ },
+ "VLO": {
+  "industria": "Oil & Gas Refining & Marketing",
+  "nombre": "Valero Energy Corporation"
+ },
+ "VLTO": {
+  "industria": "Pollution & Treatment Controls",
+  "nombre": "Veralto Corp"
+ },
+ "VMC": {
+  "industria": "Building Materials",
+  "nombre": "Vulcan Materials Company (Holdi"
+ },
+ "VMRK": {
+  "industria": "REIT - Residential",
+  "nombre": "Vivmark Residential"
+ },
+ "VNA.DE": {
+  "industria": "Real Estate Services",
+  "nombre": "Vonovia SE                    N"
+ },
+ "VNO": {
+  "industria": "REIT - Office",
+  "nombre": "Vornado Realty Trust"
+ },
+ "VNT": {
+  "industria": "Scientific & Technical Instruments",
+  "nombre": "Vontier Corporation"
+ },
+ "VOD": {
+  "industria": "Telecom Services",
+  "nombre": "Vodafone Group Plc"
+ },
+ "VOW3.DE": {
+  "industria": "Auto Manufacturers",
+  "nombre": "VOLKSWAGEN AG                 V"
+ },
+ "VPK.AS": {
+  "industria": "Oil & Gas Midstream",
+  "nombre": "VOPAK"
+ },
+ "VRSK": {
+  "industria": "Consulting Services",
+  "nombre": "Verisk Analytics, Inc."
+ },
+ "VRSN": {
+  "industria": "Software - Infrastructure",
+  "nombre": "VeriSign, Inc."
+ },
+ "VRT": {
+  "industria": "Electrical Equipment & Parts",
+  "nombre": "Vertiv Holdings, LLC"
+ },
+ "VRTX": {
+  "industria": "Biotechnology",
+  "nombre": "Vertex Pharmaceuticals Incorpor"
+ },
+ "VSNT": {
+  "industria": "Entertainment",
+  "nombre": "Versant Media Group, Inc."
+ },
+ "VST": {
+  "industria": "Utilities - Independent Power Producers",
+  "nombre": "Vistra Corp."
+ },
+ "VTR": {
+  "industria": "REIT - Healthcare Facilities",
+  "nombre": "Ventas, Inc."
+ },
+ "VTRS": {
+  "industria": "Drug Manufacturers - Specialty & Generic",
+  "nombre": "Viatris Inc."
+ },
+ "VTSC.DE": {
+  "industria": null,
+  "nombre": null
+ },
+ "VYLR": {
+  "industria": "Shell Companies",
+  "nombre": "Vylor Inc."
+ },
+ "VZ": {
+  "industria": "Telecom Services",
+  "nombre": "Verizon Communications Inc."
+ },
+ "WAB": {
+  "industria": "Railroads",
+  "nombre": "Westinghouse Air Brake Technolo"
+ },
+ "WAT": {
+  "industria": "Diagnostics & Research",
+  "nombre": "Waters Corporation"
+ },
+ "WBA": {
+  "industria": null,
+  "nombre": null
+ },
+ "WBD": {
+  "industria": "Entertainment",
+  "nombre": "Warner Bros. Discovery, Inc. - "
+ },
+ "WCG": {
+  "industria": null,
+  "nombre": null
+ },
+ "WDAY": {
+  "industria": "Software - Application",
+  "nombre": "Workday, Inc."
+ },
+ "WDC": {
+  "industria": "Computer Hardware",
+  "nombre": "Western Digital Corporation"
+ },
+ "WDI.DE": {
+  "industria": null,
+  "nombre": null
+ },
+ "WDP.BR": {
+  "industria": "REIT - Industrial",
+  "nombre": "WAREHOUSES DE PAUW"
+ },
+ "WEC": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "WEC Energy Group, Inc."
+ },
+ "WELL": {
+  "industria": "REIT - Healthcare Facilities",
+  "nombre": "Welltower Inc."
+ },
+ "WFC": {
+  "industria": "Banks - Diversified",
+  "nombre": "Wells Fargo & Company"
+ },
+ "WFM": {
+  "industria": null,
+  "nombre": null
+ },
+ "WHR": {
+  "industria": "Furnishings, Fixtures & Appliances",
+  "nombre": "Whirlpool Corporation"
+ },
+ "WIN": {
+  "industria": null,
+  "nombre": null
+ },
+ "WKL.AS": {
+  "industria": "Specialty Business Services",
+  "nombre": "WOLTERS KLUWER"
+ },
+ "WLN.PA": {
+  "industria": "Software - Infrastructure",
+  "nombre": "WORLDLINE"
+ },
+ "WM": {
+  "industria": "Waste Management",
+  "nombre": "Waste Management, Inc."
+ },
+ "WMB": {
+  "industria": "Oil & Gas Midstream",
+  "nombre": "Williams Companies, Inc. (The)"
+ },
+ "WMT": {
+  "industria": "Discount Stores",
+  "nombre": "Walmart Inc."
+ },
+ "WRB": {
+  "industria": "Insurance - Property & Casualty",
+  "nombre": "W.R. Berkley Corporation"
+ },
+ "WRK": {
+  "industria": null,
+  "nombre": null
+ },
+ "WSM": {
+  "industria": "Specialty Retail",
+  "nombre": "Williams-Sonoma, Inc."
+ },
+ "WST": {
+  "industria": "Medical Instruments & Supplies",
+  "nombre": "West Pharmaceutical Services, I"
+ },
+ "WTW": {
+  "industria": "Insurance Brokers",
+  "nombre": "Willis Towers Watson Public Lim"
+ },
+ "WU": {
+  "industria": "Credit Services",
+  "nombre": "Western Union Company (The)"
+ },
+ "WY": {
+  "industria": "REIT - Specialty",
+  "nombre": "Weyerhaeuser Company"
+ },
+ "WYND": {
+  "industria": null,
+  "nombre": null
+ },
+ "WYNN": {
+  "industria": "Resorts & Casinos",
+  "nombre": "Wynn Resorts, Limited"
+ },
+ "XEC": {
+  "industria": null,
+  "nombre": null
+ },
+ "XEL": {
+  "industria": "Utilities - Regulated Electric",
+  "nombre": "Xcel Energy Inc."
+ },
+ "XL": {
+  "industria": null,
+  "nombre": null
+ },
+ "XLNX": {
+  "industria": null,
+  "nombre": null
+ },
+ "XOM": {
+  "industria": "Oil & Gas Integrated",
+  "nombre": "ExxonMobil Holdings Corporation"
+ },
+ "XRAY": {
+  "industria": "Medical Instruments & Supplies",
+  "nombre": "DENTSPLY SIRONA Inc."
+ },
+ "XRX": {
+  "industria": "Business Equipment & Supplies",
+  "nombre": "Xerox Holdings Corporation"
+ },
+ "XYL": {
+  "industria": "Specialty Industrial Machinery",
+  "nombre": "Xylem Inc."
+ },
+ "XYZ": {
+  "industria": "Software - Infrastructure",
+  "nombre": "Block, Inc."
+ },
+ "YHOO": {
+  "industria": null,
+  "nombre": null
+ },
+ "YNAP.MI": {
+  "industria": null,
+  "nombre": null
+ },
+ "YUM": {
+  "industria": "Restaurants",
+  "nombre": "Yum! Brands, Inc."
+ },
+ "ZAL.DE": {
+  "industria": "Internet Retail",
+  "nombre": "Zalando SE                    I"
+ },
+ "ZBH": {
+  "industria": "Medical Devices",
+  "nombre": "Zimmer Biomet Holdings, Inc."
+ },
+ "ZBRA": {
+  "industria": "Communication Equipment",
+  "nombre": "Zebra Technologies Corporation"
+ },
+ "ZION": {
+  "industria": "Banks - Regional",
+  "nombre": "Zions Bancorporation N.A."
+ },
+ "ZM": {
+  "industria": "Software - Application",
+  "nombre": "Zoom Communications, Inc."
+ },
+ "ZS": {
+  "industria": "Software - Infrastructure",
+  "nombre": "Zscaler, Inc."
+ },
+ "ZTS": {
+  "industria": "Drug Manufacturers - Specialty & Generic",
+  "nombre": "Zoetis Inc."
+ }
+}
