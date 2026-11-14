@@ -1,0 +1,90 @@
+name: Todas las estrategias
+
+on:
+  schedule:
+    # GitHub usa hora UTC: 10:00 UTC = 11:00 en invierno y 12:00 en verano (hora de Madrid). De martes a sábado,
+    # cuando ya han terminado los workflows individuales (GEDA 07:55, GEN-Z 08:25 y los que se lanzan detrás).
+    - cron: '0 10 * * 2-6'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: todas-estrategias   # grupo propio: no cancela ni retrasa los workflows individuales
+  cancel-in-progress: false
+
+jobs:
+  todas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      # Cada estrategia corre SIN secretos de correo: solo se manda el correo conjunto del final.
+      # Si una falla, las demás siguen. Si Yahoo bloquea (código 2), reintenta esa una vez a los 15 minutos.
+      - name: GEDA
+        continue-on-error: true
+        run: |
+          python geda_diario.py || { echo "Reintento en 15 min"; sleep 900; python geda_diario.py; }
+          mkdir -p informe
+          [ -f salida/README.md ] && cp salida/README.md informe/README.md
+          [ -f salida/geda_mes_actual.png ] && cp salida/geda_mes_actual.png informe/
+          true
+
+      - name: GEN-Z
+        continue-on-error: true
+        run: |
+          set +e
+          python genz_diario.py; code=$?
+          if [ $code -eq 2 ]; then sleep 900; python genz_diario.py; code=$?; fi
+          exit $code
+
+      - name: ROCA, IMPULSO y CRYPTO
+        continue-on-error: true
+        run: |
+          set +e
+          python fijas_diario.py; code=$?
+          if [ $code -eq 2 ]; then sleep 900; python fijas_diario.py; code=$?; fi
+          exit $code
+
+      - name: HORIZONTE
+        continue-on-error: true
+        run: |
+          set +e
+          python horizonte_diario.py; code=$?
+          if [ $code -eq 2 ]; then sleep 900; python horizonte_diario.py; code=$?; fi
+          exit $code
+
+      - name: Reporte conjunto y correo
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: |
+          set +e
+          python conjunto_diario.py; code=$?
+          if [ $code -eq 2 ]; then sleep 900; python conjunto_diario.py; code=$?; fi
+          exit $code
+
+      - name: Guardar todos los informes en el repositorio
+        if: always()
+        run: |
+          git config user.name "estrategias-bot"
+          git config user.email "estrategias-bot@users.noreply.github.com"
+          for d in informe informe_genz informe_fijas informe_horizonte informe_conjunto salida datos; do
+            [ -e "$d" ] && git add "$d"
+          done
+          if ! git diff --cached --quiet; then
+            git commit -m "Informes de todas las estrategias $(date -u +%F)"
+            git pull --rebase
+            git push
+          fi
