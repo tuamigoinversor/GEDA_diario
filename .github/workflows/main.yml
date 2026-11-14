@@ -2,23 +2,22 @@ name: GEN-Z diario
 
 on:
   schedule:
-    # 23:00 UTC de lunes a viernes = media hora después de GEDA, para no coincidir en Yahoo (00:00 en Madrid en invierno, 01:00 en verano).
-    - cron: "05 08 * * 2-6"
-  workflow_dispatch:        # botón "Run workflow" para lanzarlo a mano
+    # GitHub usa hora UTC: 08:25 UTC = 9:25 en invierno y 10:25 en verano (hora de Madrid),
+    # media hora después de GEDA (07:55 UTC). De martes a sábado, como GEDA.
+    - cron: '25 8 * * 2-6'
+  workflow_dispatch: {}
 
 permissions:
   contents: write
 
 concurrency:
-  group: geda-diario        # el mismo grupo que GEDA: nunca corren a la vez (comparten datos/ y Yahoo)
+  group: geda-diario        # el mismo grupo que GEDA: nunca corren a la vez
   cancel-in-progress: false
 
 jobs:
   genz:
     runs-on: ubuntu-latest
     timeout-minutes: 90
-    env:
-      TZ: UTC
     steps:
       - uses: actions/checkout@v4
 
@@ -30,11 +29,11 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r requirements.txt
 
-      - name: Ejecutar GEN-Z (reintenta una vez a los 30 min si Yahoo bloquea)
+      - name: Calcular GEN-Z y enviar el correo (reintenta una vez a los 30 min si Yahoo bloquea)
         env:
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          MAIL_TO: ${{ secrets.MAIL_TO }}
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: |
           set +e
           python genz_diario.py; code=$?
@@ -45,17 +44,15 @@ jobs:
           fi
           exit $code
 
-      - name: Guardar resultados en el repo
+      - name: Guardar el informe en el repositorio (carpeta informe_genz/)
         if: always()
         run: |
           git config user.name "genz-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          [ -d salida ] && git add salida
-          git add datos/divisas_cache.json datos/industrias_yahoo_cache.json 2>/dev/null || true
-          if git diff --cached --quiet; then
-            echo "Nada nuevo que guardar"
-          else
-            git commit -m "GEN-Z diario $(date -u +%F)"
+          git config user.email "genz-bot@users.noreply.github.com"
+          for d in informe_genz salida datos; do [ -e "$d" ] && git add "$d"; done
+          if ! git diff --cached --quiet; then
+            git commit -m "Informe GEN-Z $(date -u +%F)"
             git pull --rebase
             git push
           fi
+
